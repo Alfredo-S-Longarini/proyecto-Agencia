@@ -1,15 +1,16 @@
 @media (min-width: 1024px){
     
     .titulo__signiNros{
+        padding-top: 10px;
         text-align: center;
-        padding: 10px 0 50px 0;
-        text-decoration-line: underline;
+        text-decoration: underline;
         font-size: 30px;
     }
 
     .info__signiNros{
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
+        padding: 10px 0;
     }
 
     .suenos .suenos__titulo, .animales .animales__titulo, .nombres .nombres__titulo{
@@ -90,17 +91,17 @@
 @media (max-width: 767px){
 
     .titulo__signiNros{
+        padding-top: 10px;
         text-align: center;
-        padding: 10px 0 50px 0;
-        text-decoration-line: underline;
+        text-decoration: underline;
+        font-size: 30px;
     }
 
     .info__signiNros{
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
+        padding: 10px 0;
     }
-
-    
 
     .suenos .suenos__titulo, .animales .animales__titulo, .nombres .nombres__titulo{
             text-align: center;
