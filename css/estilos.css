@@ -758,3 +758,46 @@ body {
       border-radius: 16px;
       color: white;
       padding: 0 10px; } }
+
+@media (min-width: 1024px) {
+  .titulo_quienesSomos {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    padding: 10px 0; }
+  .agencia {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto; }
+    .agencia .content {
+      position: absolute;
+      bottom: 0;
+      background: black;
+      background: rgba(0, 0, 0, 0.5);
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px; }
+    .agencia__imagen {
+      width: 100%; } }
+
+@media (max-width: 767px) {
+  .titulo_quienesSomos {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    padding: 10px 0; }
+  .cuadroAgencia {
+    margin: 0 10px; }
+  .agencia {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto; }
+    .agencia .content {
+      bottom: 0;
+      background: black;
+      background: rgba(0, 0, 0, 0.5);
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px; }
+    .agencia__imagen {
+      width: 100%; } }
