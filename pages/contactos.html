@@ -115,55 +115,72 @@
                 <div class="col-lg-6">
                     <h2 class="formulario">Formulario de contacto</h2>
 
-                    <div class="formulario__datos animate__animated animate__bounceIn">
-                        <form>
-                            <div>
-                                <label>Nombre: </label>
-                                <input type="text" placeholder="Obligatorio">
-
-                                <label>Apellido: </label>
-                                <input type="text" placeholder="Obligatorio">
-                            </div>
-
-                            <div>
-                                <label>Teléfono: </label>
-                                <input type="number" placeholder="Obligatorio">
-
-                                <h3>Sos cliente?</h3>
-                                <span>Si</span>
-                                <input type="radio" name="cliente" id="Si">
-                                <span>No</span>
-                                <input type="radio" name="cliente" id="No">
-                            </div>
-
-                            <div>
-                                <label>Correo: </label>
-                                <input type="email" placeholder="Opcional">
-
-                                <h3>Consulta sobre que juego?</h3>
-                                <select name="Juegos">
-                                    <option value="Patagonia TV Bingo">Patagonia TV Bingo</option>
-                                    <option value="Minibingo">Minibingo</option>
-                                    <option value="Loto">Loto</option>
-                                    <option value="Quini 6">Quini 6</option>
-                                    <option value="Quiniela Express">Quiniela Express</option>
-                                    <option value="Quiniela">Quiniela</option>
-                                    <option value="Loteria Unificada">Loteria Unificada</option>
-                                    <option value="Loteria Navidad">Loteria Navidad</option>
-                                </select>
-                            </div>
-
-                            <div>
-                                <div><label>Mensaje</label></div>
-                                <textarea></textarea>
-                            </div>
-
-                            <div>
-                                <input type="submit" value="Enviar">
-                                <input type="reset" value="Limpiar">
-                            </div>
-
-                        </form>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <form class="formulario__datos">
+                                <div class="form-row">
+        
+                                    <div class="col-md-4 mb-3">
+                                        <label for="validationDefault01">Nombre</label>
+                                        <input type="text" class="form-control" id="validationDefault01" required placeholder="Obligatorio">
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <label for="validationDefault02">Apellido</label>
+                                        <input type="text" class="form-control" id="validationDefault02" required placeholder="Obligatorio">
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <label for="validationDefault03">Teléfono</label>
+                                        <input type="number" class="form-control" id="validationDefault03" required placeholder="Obligatorio">
+                                    </div>
+        
+                                </div>
+                                <div class="form-row">
+        
+                                    <div class="col-md-5 mb-3">
+                                        <label for="validationDefault05">Correo</label>
+                                        <input type="email" class="form-control" id="validationDefault05" required placeholder="Opcional">
+                                    </div>
+        
+                                    <div class="col-md-5 mb-3">
+                                        <label for="validationDefault04">Consulta sobre que juego?</label>
+                                        <select class="custom-select" id="validationDefault04" required>
+                                            <option selected disabled value="">Elija un juego</option>
+                                            <option value="Patagonia TV Bingo">Patagonia TV Bingo</option>
+                                            <option value="Minibingo">Minibingo</option>
+                                            <option value="Loto">Loto</option>
+                                            <option value="Quini 6">Quini 6</option>
+                                            <option value="Quiniela Express">Quiniela Express</option>
+                                            <option value="Quiniela">Quiniela</option>
+                                            <option value="Loteria Unificada">Loteria Unificada</option>
+                                            <option value="Loteria Navidad">Loteria Navidad</option>
+                                        </select>
+                                    </div>
+        
+                                    <div class="col-md-2 mb-3">
+                                        <label for="validationDefault05">Sos cliente?</label>
+                                        <div id="validationDefault05">
+                                            <div class="border">
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                    <label class="form-check-label" for="inlineRadio1">Si</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                    <label class="form-check-label" for="inlineRadio1">No</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Mensaje</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su consulta"></textarea>
+                                </div>
+                                <button class="btn btn-primary" type="submit">Enviar</button>
+                                <button class="btn btn-primary" type="reset">Eliminar</button>
+                              </form>
+                        </div>
                     </div>
                 </div>
             </div>
