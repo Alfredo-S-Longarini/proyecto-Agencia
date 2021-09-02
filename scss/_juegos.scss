@@ -5,8 +5,15 @@
     }
 
     .titulo__juegos{
-        text-decoration: underline;
         text-align: center;
+        padding: 10px 0 20px 0;
+        text-decoration-line: underline;
+    }
+
+    .info__juegos{
+        text-align: center;
+        font-size: 25px;
+        padding-bottom: 20px;
     }
 
     .centerTxt{

@@ -41,7 +41,12 @@ body{
     text-decoration: none;
 }
 
+.container-fluid{
+    text-align: center;
+}
+
 @import "index";
 @import "barNav";
 @import "piePag";
 @import "juegos";
+@import "signiNros";
