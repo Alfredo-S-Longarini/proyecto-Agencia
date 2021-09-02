@@ -363,3 +363,38 @@ body {
     color: gray;
     padding-inline: 15px;
     text-decoration-line: none; } }
+
+@media (min-width: 1024px) {
+  .patTVBingo, .miniBingo, .lotoJuego, .quini6Juego, .quinielaJuego, .lotUniJuego, .brincoJuego, .pozoQuin {
+    margin: 10px 20px 0 20px; }
+  .titulo__juegos {
+    text-decoration: underline;
+    text-align: center; }
+  .centerTxt {
+    text-align: center; }
+  .paddingMargin {
+    padding-bottom: 50px;
+    margin: 0 10px 0 10px; }
+  .textStart p {
+    text-align: start; }
+  .card {
+    border: 1px black solid; }
+  .patTVBingo__imagen {
+    height: 490px; }
+  .lotoJuego__imagen {
+    height: 357px; } }
+
+@media (max-width: 767px) {
+  .patTVBingo {
+    margin: 10px 10px 0 10px; }
+  .miniBingo, .lotoJuego, .quini6Juego, .quinielaJuego, .lotUniJuego, .brincoJuego, .pozoQuin {
+    margin: 0 10px; }
+  .titulo__juegos {
+    text-decoration: underline;
+    text-align: center; }
+  .centerTxt {
+    text-align: center; }
+  .paddingMargin {
+    margin: 0 10px 10px 10px; }
+  .textStart p {
+    text-align: start; } }
