@@ -4,7 +4,7 @@
     $alto: 210px;
 
     .paddingLeftBot1, .paddingLeftBot{
-        padding-left: $paddLeft;
+        padding-left: $paddLeft+35px;
         padding-bottom: 50px;
     }
     
@@ -22,14 +22,18 @@
 
     // --------------------------------------------------
     .patagonia{
+        margin: 0 10px;
         background-color: #9b59b6;
         text-align: center;
-        font-size: 20px;
         box-shadow: 0px 5px 10px #4a00ab;
         transition: all 0.3s;
         cursor: pointer;
         border-radius: 20px;
         border-bottom: 1px solid #d9d9d9;
+
+        .patagonia__info{
+            font-size: 20px;
+        }
 
         .patagonia__logo{
             width:50%;
@@ -52,14 +56,18 @@
     // --------------------------------------------------
     
     .minibingo {
+        margin: 0 10px;
         background-color: #67a57f;
         text-align: center;
-        font-size: 20px;
         box-shadow: 0px 5px 10px #005e0c;
         transition: all 0.3s;
         cursor: pointer;
         border-radius: 20px;
         border-bottom: 1px solid #d9d9d9;
+
+        .minibingo__info{
+            font-size: 20px;
+        }
     
         .minibingo__logo{
             width: 40%;
@@ -81,15 +89,19 @@
     // --------------------------------------------------
     
     .loto {
+        margin: 0 10px;
         background-color: #d45a5a;
         padding-bottom: 20px;
         text-align: center;
-        font-size: 20px;
         box-shadow: 0px 5px 10px #ab0000;
         transition: all 0.3s;
         cursor: pointer;
         border-radius: 20px;
         border-bottom: 1px solid #d9d9d9;
+
+        .loto__info{
+            font-size: 20px;
+        }
     
         .loto__logo{
             width: 30%;
@@ -111,6 +123,7 @@
     // --------------------------------------------------
     
     .quini6 {
+        margin: 0 10px;
         background-color: #689dcf;
         padding-bottom: 20px;
         text-align: center;
@@ -120,6 +133,10 @@
         cursor: pointer;
         border-radius: 20px;
         border-bottom: 1px solid #d9d9d9;
+
+        .quini6__info{
+            font-size: 20px;
+        }
     
         .quini6__logo{
             width: 40%;
@@ -179,7 +196,7 @@
     
     .rionegrina__logo{
         padding-top: 10px;
-        padding-bottom: 20px;
+        padding-bottom: 17px;
     }
     
     .neuquina__logo{
@@ -199,5 +216,236 @@
         width: 30%;
         position: relative;
         bottom: 30px;
+    }
+}
+
+// ----------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------
+// Vista MOBILE
+
+@media (max-width: 767px){
+    $paddLeft: 180px;
+
+    .paddingLeftBot1, .paddingLeftBot{
+        padding-left: ($paddLeft)-110;
+        padding-bottom: 20px;
+    }
+
+    .paddingBot{
+        padding-bottom: 20px;
+    }
+
+    .rionegrina__horario, .neuquina__horario, .ciudad__horario, .provincia__horario{
+        width: 250px; 
+        height: 100px; 
+        background: white;
+        border-radius: 20px;
+    
+        h2, div{
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+
+    // --------------------------------------------------
+    .patagonia{
+        margin: 10px 10px;
+        background-color: #9b59b6;
+        text-align: center;
+        font-size: 20px;
+        box-shadow: 0px 5px 10px #4a00ab;
+        transition: all 0.3s;
+        cursor: pointer;
+        border-radius: 20px;
+        border-bottom: 1px solid #d9d9d9;
+
+        .patagonia__info{
+            font-size: 25px;
+        }
+
+        .patagonia__logo{
+            width:50%;
+            padding-top: 6px;
+            padding-bottom: 5px;
+        }
+    }
+
+    .patagonia:hover {
+        box-shadow: 0px 15px 25px -5px #4a00ab;
+        transform: scale(1.03);
+        color: white;
+    }
+
+    .patagonia:active {
+        box-shadow: 0px 4px 8px #4a00ab;
+        transform: scale(0.98);
+    }
+
+    // --------------------------------------------------
+    
+    .minibingo {
+        margin: 10px 10px;
+        background-color: #67a57f;
+        text-align: center;
+        font-size: 20px;
+        box-shadow: 0px 5px 10px #005e0c;
+        transition: all 0.3s;
+        cursor: pointer;
+        border-radius: 20px;
+        border-bottom: 1px solid #d9d9d9;
+
+        .minibingo__info{
+            font-size: 25px;
+        }
+    
+        .minibingo__logo{
+            width: 40%;
+            padding-top: 10px;
+            padding-bottom: 5px;
+        }
+    }
+
+    .minibingo:hover {
+        box-shadow: 0px 15px 25px -5px #005e0c;
+        transform: scale(1.03);
+        color: white;
+    }
+    .minibingo:active {
+        box-shadow: 0px 4px 8px #005e0c;
+        transform: scale(0.98);
+    }
+
+    // --------------------------------------------------
+    
+    .loto {
+        margin: 10px 10px;
+        background-color: #d45a5a;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 20px;
+        box-shadow: 0px 5px 10px #ab0000;
+        transition: all 0.3s;
+        cursor: pointer;
+        border-radius: 20px;
+        border-bottom: 1px solid #d9d9d9;
+
+        .loto__info{
+            font-size: 25px;
+        }
+    
+        .loto__logo{
+            width: 30%;
+            padding-top: 10px;
+            padding-bottom: 5px;
+        }
+    }
+
+    .loto:hover {
+        box-shadow: 0px 15px 25px -5px #ab0000;
+        transform: scale(1.03);
+        color: white;
+    }
+    .loto:active {
+        box-shadow: 0px 4px 8px #0065c8;
+        transform: scale(0.98);
+    }
+
+    // --------------------------------------------------
+    
+    .quini6 {
+        margin: 10px 10px;
+        background-color: #689dcf;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        box-shadow: 0px 5px 10px #50779c;
+        transition: all 0.3s;
+        cursor: pointer;
+        border-radius: 20px;
+        border-bottom: 1px solid #d9d9d9;
+
+        .quini6__info{
+            font-size: 25px;
+        }
+    
+        .quini6__logo{
+            width: 40%;
+            padding-top: 10px;
+            padding-bottom: 13px;
+        }
+    }
+
+    .quini6:hover {
+        box-shadow: 0px 15px 25px -5px #50779c;
+        transform: scale(1.03);
+        color: white;
+    }
+    .quini6:active {
+        box-shadow: 0px 4px 8px #0065c8;
+        transform: scale(0.98);
+    }
+
+    // --------------------------------------------------
+    
+    .titulo{
+        text-align: center;
+        div{
+            font-size: 25px;
+        }
+    }
+    
+    .title1, .title2, .title3, .title4{
+        text-align: center;
+    }
+    
+    .fondoRionegrina{
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(33,173,20,1) 100%);
+    }
+    
+    .fondoNeuquina{
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(231,255,0,1) 87%);
+    }
+    
+    .fondoCiudad{
+        padding-top: 50px;
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(115,254,255,1) 71%, rgba(0,254,255,1) 100%);
+    }
+    
+    .fondoProvincia{
+        padding-top: 50px;
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(115,204,116,1) 49%, rgba(21,38,190,1) 100%);
+    }
+    
+    
+    .rionegrina__logo{
+        width: 95%;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .neuquina__logo{
+        width: 80%;
+    }
+    
+    .ciudad__logo{
+        width: 90%;
+        margin-top: -51px;
+        padding-bottom: 15px;
+    }
+    
+    .provincia__logo{
+        width: 70%;
+        margin-top: -27px;
+        padding-bottom: 18px;
+    }
+
+    .paddingTopMB{
+        padding-top: 10px;
     }
 }
