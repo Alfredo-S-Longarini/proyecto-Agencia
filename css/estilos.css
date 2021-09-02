@@ -836,8 +836,7 @@ body {
   .ubicacion__mapa {
     border-radius: 10px; }
   .formulario__datos {
-    position: relative;
-    left: 320px; }
+    margin-left: 320px; }
     .formulario__datos form {
       width: 300px;
       padding: 16px;
@@ -905,7 +904,7 @@ body {
     width: 90%;
     border-radius: 10px; }
   .formulario__datos {
-    padding-left: 40px; }
+    margin-left: 40px; }
     .formulario__datos form {
       width: 300px;
       padding: 16px;
