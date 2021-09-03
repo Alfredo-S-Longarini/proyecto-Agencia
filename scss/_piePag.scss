@@ -24,6 +24,10 @@
     .pie{
         color:gray ;
         padding: 5px 0 5px 0;
+
+        &__enlaces{
+            font-size: 20px;
+        }
     }
 
     .pie__enlaces a{
@@ -31,9 +35,5 @@
         font-size: 15px;
         color: gray;
         text-decoration-line: none;
-    }
-
-    .center{
-        align-items: center;
     }
 }

@@ -221,10 +221,9 @@
 // Vista MOBILE
 
 @media only screen and (max-width: 767px){
-    $paddLeft: 180px;
 
-    .paddingLeftBot1, .paddingLeftBot{
-        padding-left: ($paddLeft)-110px;
+    .paddingLeftBot{
+        margin-left: 20%;
         padding-bottom: 20px;
     }
 
