@@ -1,37 +1,39 @@
-.pie{
-    color:gray ;
-    display: flex;
-    flex-direction: row;
-    margin-left: 10px;
-    padding: 5px 0 5px 0;
-}
+@media only screen and (min-width: 1024px){
+    .pie{
+        color:gray ;
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+        padding: 5px 0 5px 0;
+    }
 
-.pie__enlaces{
-    font-size: 17px;
-    a{
-        font-size: 14px;
-        color: gray;
-        padding-inline: 15px;
-        text-decoration-line: none;
+    .pie__enlaces{
+        font-size: 17px;
+        a{
+            font-size: 14px;
+            color: gray;
+            padding-inline: 15px;
+            text-decoration-line: none;
+        }
     }
 }
 
 // ----------------------------------------------------------------------------------------
 // Vista MOBILE
-@media (max-width: 767px){
+@media only screen and (max-width: 767px){
     .pie{
-        text-align: center;
         color:gray ;
-        margin-left: 110px;
         padding: 5px 0 5px 0;
     }
 
     .pie__enlaces a{
         display: block;
-        text-align: center;
         font-size: 15px;
         color: gray;
-        padding-inline: 15px;
         text-decoration-line: none;
+    }
+
+    .center{
+        align-items: center;
     }
 }

@@ -170,7 +170,7 @@ body {
     position: relative;
     bottom: 30px; } }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .paddingLeftBot1, .paddingLeftBot {
     padding-left: 70px;
     padding-bottom: 20px; }
@@ -336,34 +336,32 @@ body {
   .navbar-light .navbar-nav .nav-link {
     color: black; } }
 
-.pie {
-  color: gray;
-  display: flex;
-  flex-direction: row;
-  margin-left: 10px;
-  padding: 5px 0 5px 0; }
-
-.pie__enlaces {
-  font-size: 17px; }
-  .pie__enlaces a {
-    font-size: 14px;
-    color: gray;
-    padding-inline: 15px;
-    text-decoration-line: none; }
-
-@media (max-width: 767px) {
+@media only screen and (min-width: 1024px) {
   .pie {
-    text-align: center;
     color: gray;
-    margin-left: 110px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    padding: 5px 0 5px 0; }
+  .pie__enlaces {
+    font-size: 17px; }
+    .pie__enlaces a {
+      font-size: 14px;
+      color: gray;
+      padding-inline: 15px;
+      text-decoration-line: none; } }
+
+@media only screen and (max-width: 767px) {
+  .pie {
+    color: gray;
     padding: 5px 0 5px 0; }
   .pie__enlaces a {
     display: block;
-    text-align: center;
     font-size: 15px;
     color: gray;
-    padding-inline: 15px;
-    text-decoration-line: none; } }
+    text-decoration-line: none; }
+  .center {
+    align-items: center; } }
 
 @media (min-width: 1024px) {
   .patTVBingo, .miniBingo, .lotoJuego, .quini6Juego, .quinielaJuego, .lotUniJuego, .brincoJuego, .pozoQuin {
