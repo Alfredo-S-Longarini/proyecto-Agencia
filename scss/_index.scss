@@ -3,6 +3,14 @@
     $ancho: 450px;
     $alto: 210px;
 
+    .fondo__nrosquiniela{
+        width: 50%;
+    }
+
+    .quiniela__nros{
+        font-size: 20px;
+    }
+
     .paddingLeftBot1, .paddingLeftBot{
         padding-left: $paddLeft+35px;
         padding-bottom: 50px;
@@ -221,6 +229,14 @@
 // Vista MOBILE
 
 @media only screen and (max-width: 767px){
+
+    .fondo__nrosquiniela{
+        width: 63%;
+    }
+
+    .quiniela__nros{
+        font-size: 20px;
+    }
 
     .paddingLeftBot{
         margin-left: 20%;
