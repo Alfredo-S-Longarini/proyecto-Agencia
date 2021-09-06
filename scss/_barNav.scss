@@ -1,3 +1,8 @@
+
+.bg-light{
+    background-color: rgb(182, 253, 255) !important;
+}
+
 // ----------------------------------------------------------------------------------------
 // Vista DESKTOP
 @media (min-width: 1024px){
@@ -5,6 +10,7 @@
         font-size: 20px;
         padding-left: 525px;
         padding-bottom: 10px;
+        margin-bottom: 20px;
     }
     
     .navbar-light .navbar-nav .nav-link {
@@ -24,6 +30,7 @@
     .navbar{
         font-size: 20px;
         padding-bottom: 10px;
+        margin-bottom: 10px;
     }
 
     .dropdown-menu a{
