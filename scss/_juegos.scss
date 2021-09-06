@@ -4,6 +4,16 @@
         margin: 10px 20px 0 20px;
     }
 
+    .card{
+        border: 1px black solid;
+    }
+
+    .card-body{
+        p{
+            text-align: start;
+        }
+    }
+
     .titulo__juegos{
         padding-top: 10px;
         text-align: center;
@@ -17,29 +27,37 @@
         padding: 10px 0;
     }
 
-    .centerTxt{
-        text-align: center;
-    }
-
     .paddingMargin{
         padding-bottom: 50px;
         margin: 0 10px 0 10px;
-    }
-
-    .textStart p{
-        text-align: start;
-    }
-
-    .card{
-        border: 1px black solid;
     }
 
     .patTVBingo__imagen{
         height: 490px;
     }
 
-    .lotoJuego__imagen{
-        height: 357px;
+    .miniBingo{
+        .card-text{
+            padding-bottom: 20px;
+        }
+    }
+
+    .quini6Juego{
+        .card-text{
+            padding-bottom: 5px;
+        }
+    }
+
+    .lotUniJuego{
+        .card-text{
+            padding-bottom: 10px;
+        }
+    }
+
+    .pozoQuin{
+        .card-text{
+            padding-bottom: 45px;
+        }
     }
 }
 
