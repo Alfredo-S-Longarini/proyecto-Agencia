@@ -15,195 +15,77 @@
     .paddingBot{
         padding-bottom: 20px;
     }
+
+    .btn__resultados{
+        font-weight: bold;
+        color: $negro ;
+        box-shadow: 1px 1px 10px #3f3f3f;
+        padding: 5px;
+        border-radius: 10px;
+        border: 0px solid $blanco;
+        background: $blanco;
+    }
+
+    .btn__resultados:hover{
+        color: $negro !important;
+        background: #e7e7e7;
+        text-decoration: none;
+    }
     
     .resultadosPatagonia{
         margin: 0 10px;
         padding-bottom: 15px;
-        background: #9b59b6;
+        background: $patagonia;
         border-radius: 20px;
-    
-        .resultadosPatagonia__enlace{
-            font-weight: bold;
-            color: #FFFFFF ;
-            box-shadow: 1px 1px 10px #0E300B;
-            padding: 10px 25px;
-            border-radius: 16px;
-            border: 0px solid #008712;
-            background: #13AD32;
-        }
-
-        .resultadosPatagonia__enlace:hover{
-            color: #FFFFFF !important;
-            background: #18DB18;
-            text-decoration: none;
-        }
     }
     
     .resultadosMinibingo{
         margin: 0 10px;
         padding-bottom: 15px;
-        background: #67a57f;
+        background: $minibingo;
         border-radius: 16px;
-    
-        .resultadosMinibingo__enlace{
-            font-weight: bold;
-            color: #FFFFFF !important;
-            box-shadow: 1px 1px 10px #A1A132;
-            padding: 10px 25px;
-            border-radius: 16px;
-            border: 0px solid #008712;
-            background: #C1C724;
-        }
-
-        .resultadosMinibingo__enlace:hover{
-            color: #FFFFFF !important;
-            background: #F7FF17;
-            text-decoration: none;
-        }
-
-        
     }
     
     .resultadosLoto{
         margin: 0 10px;
         padding-bottom: 15px;
-        background: #d45a5a;
+        background: $loto;
         border-radius: 20px;
-    
-        .resultadosLoto__enlace{
-            font-weight: bold;
-            color: #FFFFFF !important;
-            text-shadow: 1px 1px 0px #000000;
-            box-shadow: 1px 1px 10px #000000;
-            padding: 10px 25px;
-            border-radius: 16px;
-            border: 0px solid #008712;
-            background: #000000;
-        }
-
-        .resultadosLoto__enlace:hover{
-            color: #FFFFFF !important;
-            background: #6B6B6B;
-            text-decoration: none;
-        }
     }
     
     .resultadosQuini6{
         margin: 0 10px;
         padding-bottom: 15px;
-        background: #689dcf;
+        background: $quini6;
         border-radius: 20px;
-    
-        .resultadosQuini6__enlace{
-            font-weight: bold;
-            color: #FFFFFF !important;
-            text-shadow: 1px 1px 0px #000000;
-            box-shadow: 1px 1px 10px #000000;
-            padding: 10px 25px;
-            border-radius: 16px;
-            border: 0px solid #008712;
-            background: #B50000;
-        }
-
-        .resultadosQuini6__enlace:hover{
-            color: #FFFFFF !important;
-            background: #FF0000;
-            text-decoration: none;
-        }
     }
     
     .resultadosQuiniela{
         margin: 0 10px;
         padding-bottom: 15px;
-        background: #2e43ff;
+        background: $quiniela;
         border-radius: 20px;
-    
-        .resultadosQuiniela__enlace{
-            font-weight: bold;
-            color: #FFFFFF !important;
-            text-shadow: 1px 1px 0px #000000;
-            box-shadow: 1px 1px 10px #3698A3;
-            padding: 10px 25px;
-            border-radius: 16px;
-            border: 0px solid #008712;
-            background: #24AFC4;
-        }
-
-        .resultadosQuiniela__enlace:hover{
-            color: #FFFFFF !important;
-            background: #1FE8FF;
-            text-decoration: none;
-        }
     }
     
     .resultadosLoteria{
         margin: 0 10px;
         padding-bottom: 15px;
-        background: #cdcece;
+        background: $loteria;
         border-radius: 20px;
-    
-        .resultadosLoteria__enlace{
-            font-weight: bold;
-            color: #FFFFFF ;
-            box-shadow: 1px 1px 10px #0E300B;
-            padding: 10px 25px;
-            border-radius: 16px;
-            border: 0px solid #008712;
-            background: #13AD32;
-        }
-
-        .resultadosLoteria__enlace:hover{
-            color: #FFFFFF !important;
-            background: #18DB18;
-            text-decoration: none;
-        }
     }
     
     .resultadosBrinco{
         margin: 0 10px;
         padding-bottom: 15px;
-        background: #e7e43b;
+        background: $brinco; 
         border-radius: 20px;
-    
-        .resultadosBrinco__enlace{
-            font-weight: bold;
-            color: #FFFFFF !important;
-            text-shadow: 1px 1px 0px #000000;
-            box-shadow: 1px 1px 10px #3698A3;
-            padding: 10px 25px;
-            border-radius: 16px;
-            border: 0px solid #008712;
-            background: #24AFC4;
-        }
-
-        .resultadosBrinco__enlace:hover{
-            color: #FFFFFF !important;
-            background: #1FE8FF;
-            text-decoration: none;
-        }
     }
     
     .resultadosPozo{
         margin: 0 10px;
         padding-bottom: 15px;
-        background: #2e43ff;
+        background: $quiniela;
         border-radius: 20px;
-    
-        .resultadosPozo__enlace{
-            font-weight: bold;
-            color: #FFFFFF ;
-            box-shadow: 1px 1px 10px #0E300B;
-            padding: 10px 25px;
-            border-radius: 16px;
-            border: 0px solid #008712;
-            background: #13AD32;
-        }
-
-        .resultadosPozo__enlace:hover{
-            color: #FFFFFF !important;
-            background: #18DB18;
-            text-decoration: none;
-        }
     }
 }
 
@@ -223,124 +105,76 @@
     .paddingBot{
         padding-bottom: 20px;
     }
+
+    .btn__resultados{
+        font-weight: bold;
+        color: $negro ;
+        box-shadow: 1px 1px 10px #3f3f3f;
+        padding: 5px;
+        border-radius: 10px;
+        border: 0px solid $blanco;
+        background: $blanco;
+    }
+
+    .btn__resultados:hover{
+        color: $negro !important;
+        background: #e7e7e7;
+        text-decoration: none;
+    }
     
     .resultadosPatagonia{
         margin: 0 10px;
         padding-bottom: 15px;
-        background: #9b59b6;
+        background: $patagonia;
         border-radius: 20px;
-    
-        .resultadosPatagonia__enlace{
-            text-decoration: none;
-            background: green;
-            border-radius: 16px;
-            color: white;
-            padding: 0 10px;
-        }
     }
     
     .resultadosMinibingo{
         margin: 0 10px;
         padding-bottom: 15px;
-        background: #67a57f;
+        background: $minibingo;
         border-radius: 16px;
-    
-        .resultadosMinibingo__enlace{
-            text-decoration: none;
-            background: yellow;
-            border-radius: 16px;
-            color: white;
-            padding: 0 10px;
-        }
     }
     
     .resultadosLoto{
         margin: 0 10px;
         padding-bottom: 15px;
-        background: #d45a5a;
+        background: $loto;
         border-radius: 20px;
-    
-        .resultadosLoto__enlace{
-            text-decoration: none;
-            background: black;
-            border-radius: 16px;
-            color: white;
-            padding: 0 10px;
-        }
     }
     
     .resultadosQuini6{
         margin: 0 10px;
         padding-bottom: 15px;
-        background: #689dcf;
+        background: $quini6;
         border-radius: 20px;
-    
-        .resultadosQuini6__enlace{
-            text-decoration: none;
-            background: red;
-            border-radius: 16px;
-            color: white;
-            padding: 0 10px;
-        }
     }
     
     .resultadosQuiniela{
         margin: 0 10px;
         padding-bottom: 15px;
-        background: #2e43ff;
+        background: $quiniela;
         border-radius: 20px;
-    
-        .resultadosQuiniela__enlace{
-            text-decoration: none;
-            background: #689dcf;
-            border-radius: 16px;
-            color: white;
-            padding: 0 10px;
-        }
     }
     
     .resultadosLoteria{
         margin: 0 10px;
         padding-bottom: 15px;
-        background: #cdcece;
+        background: $loteria;
         border-radius: 20px;
-    
-        .resultadosLoteria__enlace{
-            text-decoration: none;
-            background: rgb(36, 206, 59);
-            border-radius: 16px;
-            color: white;
-            padding: 0 10px;
-        }
     }
     
     .resultadosBrinco{
         margin: 0 10px;
         padding-bottom: 15px;
-        background: #e7e43b;
+        background: $brinco;
         border-radius: 20px;
-    
-        .resultadosBrinco__enlace{
-            text-decoration: none;
-            background: rgb(31, 46, 255);
-            border-radius: 16px;
-            color: white;
-            padding: 0 10px;
-        }
     }
     
     .resultadosPozo{
         margin: 0 10px;
         padding-bottom: 15px;
-        background: #2e43ff;
+        background: $quiniela;
         border-radius: 20px;
-    
-        .resultadosPozo__enlace{
-            text-decoration: none;
-            background: rgb(36, 206, 59);
-            border-radius: 16px;
-            color: white;
-            padding: 0 10px;
-        }
     }
 }
