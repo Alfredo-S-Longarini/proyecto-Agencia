@@ -354,15 +354,19 @@ body {
     font-size: 15px;
     display: block; }
   .pie__part1 {
+    background-color: rgba(240, 240, 240, 0.836);
     margin-top: 20px;
     border-top: 1px #d8d8d8 solid; }
   .pie__part2 {
+    background-color: rgba(240, 240, 240, 0.836);
     border-left: 1px #d8d8d8 solid;
     border-top: 1px #d8d8d8 solid; }
     .pie__part2 h3 {
       font-size: 15px;
       margin-top: 10px; }
   .pie__part3 {
+    color: white;
+    background-color: black;
     border-top: 1px #d8d8d8 solid; }
     .pie__part3 h3 {
       font-size: 15px;
