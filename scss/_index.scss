@@ -17,24 +17,13 @@
     }
 
     .quiniela__nros{
+        margin-left: 70px;
         font-size: 20px;
     }
 
     .paddingLeftBot{
         padding-left: $paddLeft+35px;
         padding-bottom: 50px;
-    }
-    
-    .rionegrina__horario, .neuquina__horario, .ciudad__horario, .provincia__horario{
-        width: ($ancho)-200; 
-        height: ($alto)-110; 
-        background: white;
-        border-radius: 20px;
-    
-        h2, div{
-            text-align: center;
-            font-size: 20px;
-        }
     }
 
     $quinielas:(
