@@ -324,31 +324,49 @@ body {
     color: black; } }
 
 @media only screen and (min-width: 1024px) {
-  .pie {
+  .pie li {
     color: gray;
-    display: flex;
-    flex-direction: row;
-    margin-left: 10px;
-    padding: 5px 0 5px 0; }
-  .pie__enlaces {
-    font-size: 17px; }
-    .pie__enlaces a {
-      font-size: 14px;
-      color: gray;
-      padding-inline: 15px;
-      text-decoration-line: none; } }
+    font-size: 15px;
+    margin-top: 10px; }
+  .pie__part1 {
+    background-color: rgba(240, 240, 240, 0.836);
+    margin-top: 20px;
+    border-top: 1px #d8d8d8 solid; }
+  .pie__part2 {
+    background-color: rgba(240, 240, 240, 0.836);
+    margin-top: 20px;
+    border-left: 1px #d8d8d8 solid;
+    border-top: 1px #d8d8d8 solid; }
+    .pie__part2 h3 {
+      font-size: 15px;
+      margin-top: 10px; }
+  .pie__part3 {
+    color: white;
+    background-color: black;
+    border-top: 1px #d8d8d8 solid; }
+    .pie__part3 h3 {
+      font-size: 15px;
+      margin-top: 10px; } }
 
 @media only screen and (max-width: 767px) {
   .pie {
     color: gray;
-    padding: 5px 0 5px 0; }
-    .pie__enlaces {
-      font-size: 20px; }
-  .pie__enlaces a {
-    display: block;
     font-size: 15px;
-    color: gray;
-    text-decoration-line: none; } }
+    display: block; }
+  .pie__part1 {
+    margin-top: 20px;
+    border-top: 1px #d8d8d8 solid; }
+  .pie__part2 {
+    border-left: 1px #d8d8d8 solid;
+    border-top: 1px #d8d8d8 solid; }
+    .pie__part2 h3 {
+      font-size: 15px;
+      margin-top: 10px; }
+  .pie__part3 {
+    border-top: 1px #d8d8d8 solid; }
+    .pie__part3 h3 {
+      font-size: 15px;
+      margin-top: 10px; } }
 
 @media (min-width: 1024px) {
   .patTVBingo, .miniBingo, .lotoJuego, .quini6Juego, .quinielaJuego, .lotUniJuego, .brincoJuego, .pozoQuin {

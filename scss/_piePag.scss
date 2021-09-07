@@ -1,19 +1,35 @@
+
 @media only screen and (min-width: 1024px){
-    .pie{
+    .pie li{
         color:gray ;
-        display: flex;
-        flex-direction: row;
-        margin-left: 10px;
-        padding: 5px 0 5px 0;
+        font-size: 15px;
+        margin-top: 10px;
     }
 
-    .pie__enlaces{
-        font-size: 17px;
-        a{
-            font-size: 14px;
-            color: gray;
-            padding-inline: 15px;
-            text-decoration-line: none;
+    .pie__part1{
+        background-color: rgba(240, 240, 240, 0.836);
+        margin-top: 20px;
+        border-top: 1px rgb(216, 216, 216) solid;
+    }
+
+    .pie__part2{
+        background-color: rgba(240, 240, 240, 0.836);
+        margin-top: 20px;
+        border-left: 1px rgb(216, 216, 216) solid;
+        border-top: 1px rgb(216, 216, 216) solid;
+        h3{
+            font-size: 15px;
+            margin-top: 10px;
+        }
+    }
+
+    .pie__part3{
+        color: $blanco;
+        background-color: $negro;
+        border-top: 1px rgb(216, 216, 216) solid;
+        h3{
+            font-size: 15px;
+            margin-top: 10px;
         }
     }
 }
@@ -23,17 +39,30 @@
 @media only screen and (max-width: 767px){
     .pie{
         color:gray ;
-        padding: 5px 0 5px 0;
+        font-size: 15px;
+        display: block;
+    }
 
-        &__enlaces{
-            font-size: 20px;
+    .pie__part1{
+        margin-top: 20px;
+        border-top: 1px rgb(216, 216, 216) solid;
+    }
+
+    .pie__part2{
+        border-left: 1px rgb(216, 216, 216) solid;
+        border-top: 1px rgb(216, 216, 216) solid;
+        h3{
+            font-size: 15px;
+            margin-top: 10px;
         }
     }
 
-    .pie__enlaces a{
-        display: block;
-        font-size: 15px;
-        color: gray;
-        text-decoration-line: none;
+    .pie__part3{
+        border-top: 1px rgb(216, 216, 216) solid;
+        h3{
+            font-size: 15px;
+            margin-top: 10px;
+        }
     }
+    
 }
