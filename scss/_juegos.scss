@@ -1,3 +1,7 @@
+// ----------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------
+// Vista DESKTOP
 @media (min-width: 1024px){
 
     .patTVBingo, .miniBingo, .lotoJuego, .quini6Juego, .quinielaJuego, .lotUniJuego, .brincoJuego, .pozoQuin{
@@ -61,8 +65,56 @@
     }
 }
 
+// ----------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------
+// Vista MOBILE
 @media (max-width: 767px){
 
+    .titulo__juegos{
+        padding-top: 10px;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 30px;
+    }
+
+    .subtitulo__juegos{
+        text-align: center;
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .patTVBingo{
+        margin: 10px 10px 0 10px;
+    }
+
+    .miniBingo, .lotoJuego, .quini6Juego, .quinielaJuego, .lotUniJuego, .brincoJuego, .pozoQuin{
+        margin: 0 10px;
+    }
+
+    .titulo__juegos{
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    .centerTxt{
+        text-align: center;
+    }
+
+    .paddingMargin{
+        margin: 0 10px 10px 10px;
+    }
+
+    .textStart p{
+        text-align: start;
+    }
+}
+
+// ----------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------
+// Vista TABLET
+@media (min-width: 768px) and (max-width: 1023px){
     .titulo__juegos{
         padding-top: 10px;
         text-align: center;

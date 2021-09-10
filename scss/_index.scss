@@ -1,3 +1,7 @@
+// ----------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------
+// Vista DESKTOP
 @media only screen and (min-width: 1024px){
     $paddLeft: 180px;
     $ancho: 450px;
@@ -210,7 +214,6 @@
 // ----------------------------------------------------------------------------------------
 // ----------------------------------------------------------------------------------------
 // Vista MOBILE
-
 @media only screen and (max-width: 767px){
 
     .titulo{
@@ -425,4 +428,222 @@
     }
 
     // --------------------------------------------------
+}
+
+// ----------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------
+// Vista TABLET
+@media (min-width: 768px) and (max-width: 1023px){
+    .titulo{
+        text-align: center;
+        div{
+            font-size: 25px;
+        }
+    }
+
+    // --------------------------------------------------
+    // Slider quinielas.
+
+    .fondo__nrosquiniela{
+        width: 63%;
+    }
+
+    .quiniela__nros{
+        font-size: 20px;
+    }
+
+    .paddingLeftBot{
+        margin-left: 20%;
+        padding-bottom: 20px;
+    }
+
+    .paddingBot{
+        padding-bottom: 20px;
+    }
+
+    .fondoRionegrina{
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(33,173,20,1) 100%);
+    }
+    
+    .fondoNeuquina{
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(231,255,0,1) 87%);
+    }
+    
+    .fondoCiudad{
+        padding-top: 50px;
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(115,254,255,1) 71%, rgba(0,254,255,1) 100%);
+    }
+    
+    .fondoProvincia{
+        padding-top: 50px;
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(115,204,116,1) 49%, rgba(21,38,190,1) 100%);
+    }
+    
+    .rionegrina__logo{
+        width: 95%;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .neuquina__logo{
+        width: 80%;
+    }
+    
+    .ciudad__logo{
+        width: 90%;
+        margin-top: -51px;
+        padding-bottom: 15px;
+    }
+    
+    .provincia__logo{
+        width: 70%;
+        margin-top: -27px;
+        padding-bottom: 18px;
+    }
+
+    .paddingTopMB{
+        padding-top: 10px;
+    }
+
+    // --------------------------------------------------
+    // Botones informativos.
+    .patagonia{
+        margin: 10px 10px;
+        background-color: $patagonia;
+        text-align: center;
+        font-size: 20px;
+        box-shadow: 0px 5px 10px $patShadow;
+        transition: all 0.3s;
+        cursor: pointer;
+        border-radius: 20px;
+        border-bottom: 1px solid $blanco;
+
+        .patagonia__info{
+            font-size: 25px;
+        }
+
+        .patagonia__logo{
+            width:50%;
+            padding-top: 6px;
+            padding-bottom: 5px;
+        }
+    }
+
+    .patagonia:hover {
+        box-shadow: 0px 15px 25px -5px $patShadow;
+        transform: scale(1.03);
+    }
+
+    .patagonia:active {
+        box-shadow: 0px 4px 8px $patShadow;
+        transform: scale(0.98);
+    }
+
+    // --------------------------------------------------
+    
+    .minibingo {
+        margin: 10px 10px;
+        background-color: $minibingo;
+        text-align: center;
+        font-size: 20px;
+        box-shadow: 0px 5px 10px $miniShadow;
+        transition: all 0.3s;
+        cursor: pointer;
+        border-radius: 20px;
+        border-bottom: 1px solid $blanco;
+
+        .minibingo__info{
+            font-size: 25px;
+        }
+    
+        .minibingo__logo{
+            width: 40%;
+            padding-top: 10px;
+            padding-bottom: 5px;
+        }
+    }
+
+    .minibingo:hover {
+        box-shadow: 0px 15px 25px -5px $miniShadow;
+        transform: scale(1.03);
+    }
+    .minibingo:active {
+        box-shadow: 0px 4px 8px $miniShadow;
+        transform: scale(0.98);
+    }
+
+    // --------------------------------------------------
+    
+    .loto {
+        margin: 10px 10px;
+        background-color: $loto;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 20px;
+        box-shadow: 0px 5px 10px $lotoShadow;
+        transition: all 0.3s;
+        cursor: pointer;
+        border-radius: 20px;
+        border-bottom: 1px solid $blanco;
+
+        .loto__info{
+            font-size: 25px;
+        }
+    
+        .loto__logo{
+            width: 30%;
+            padding-top: 10px;
+            padding-bottom: 5px;
+        }
+    }
+
+    .loto:hover {
+        box-shadow: 0px 15px 25px -5px $lotoShadow;
+        transform: scale(1.03);
+    }
+    .loto:active {
+        box-shadow: 0px 4px 8px $lotoShadow;
+        transform: scale(0.98);
+    }
+
+    // --------------------------------------------------
+    
+    .quini6 {
+        margin: 10px 10px;
+        background-color: $quini6;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        box-shadow: 0px 5px 10px $quini6Shadow;
+        transition: all 0.3s;
+        cursor: pointer;
+        border-radius: 20px;
+        border-bottom: 1px solid $blanco;
+
+        .quini6__info{
+            font-size: 25px;
+        }
+    
+        .quini6__logo{
+            width: 40%;
+            padding-top: 10px;
+            padding-bottom: 13px;
+        }
+    }
+
+    .quini6:hover {
+        box-shadow: 0px 15px 25px -5px $quini6Shadow;
+        transform: scale(1.03);
+    }
+    .quini6:active {
+        box-shadow: 0px 4px 8px $quini6Shadow;
+        transform: scale(0.98);
+    }
+
 }

@@ -1,4 +1,5 @@
-
+// ----------------------------------------------------------------------------------------
+// Vista DESKTOP
 @media only screen and (min-width: 1024px){
     .pie li{
         color:gray ;
@@ -69,4 +70,40 @@
         }
     }
     
+}
+
+// ----------------------------------------------------------------------------------------
+// Vista TABLET
+@media (min-width: 768px) and (max-width: 1023px){
+    .pie{
+        color:gray ;
+        font-size: 15px;
+        display: block;
+    }
+
+    .pie__part1{
+        background-color: rgba(240, 240, 240, 0.836);
+        margin-top: 20px;
+        border-top: 1px rgb(216, 216, 216) solid;
+    }
+
+    .pie__part2{
+        background-color: rgba(240, 240, 240, 0.836);
+        border-left: 1px rgb(216, 216, 216) solid;
+        border-top: 1px rgb(216, 216, 216) solid;
+        h3{
+            font-size: 15px;
+            margin-top: 10px;
+        }
+    }
+
+    .pie__part3{
+        color: $blanco;
+        background-color: $negro;
+        border-top: 1px rgb(216, 216, 216) solid;
+        h3{
+            font-size: 15px;
+            margin-top: 10px;
+        }
+    }
 }

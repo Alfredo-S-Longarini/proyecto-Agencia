@@ -38,3 +38,21 @@
     }
 
 }
+
+// ----------------------------------------------------------------------------------------
+// Vista TABLET
+@media (min-width: 768px) and (max-width: 1023px){
+    .navbar{
+        font-size: 20px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .dropdown-menu a{
+        font-size: 20px;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: black;
+    }
+}
