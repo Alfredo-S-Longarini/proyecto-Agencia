@@ -66,9 +66,9 @@ body {
     top: 30px;
     padding-bottom: 47px; }
   .ciudad__logo {
-    position: relative;
-    bottom: 50px;
-    width: 27%; }
+    margin-bottom: -26px;
+    margin-top: -80px;
+    width: 25%; }
   .provincia__logo {
     width: 30%;
     position: relative;
@@ -198,11 +198,13 @@ body {
     padding-left: 10px;
     padding-bottom: 10px; }
   .neuquina__logo {
-    width: 80%; }
+    width: 55%;
+    margin-top: -35px;
+    margin-bottom: -25px; }
   .ciudad__logo {
-    width: 90%;
-    margin-top: -51px;
-    padding-bottom: 15px; }
+    width: 70%;
+    margin-top: -80px;
+    margin-bottom: -40px; }
   .provincia__logo {
     width: 70%;
     margin-top: -27px;
@@ -330,17 +332,17 @@ body {
     background: white;
     background: linear-gradient(180deg, white 0%, #73cc74 49%, #1526be 100%); }
   .rionegrina__logo {
-    width: 95%;
+    width: 85%;
     padding-left: 10px;
     padding-bottom: 10px; }
   .neuquina__logo {
     width: 80%; }
   .ciudad__logo {
-    width: 90%;
-    margin-top: -51px;
-    padding-bottom: 15px; }
+    width: 50%;
+    margin-top: -90px;
+    margin-bottom: -40px; }
   .provincia__logo {
-    width: 70%;
+    width: 65%;
     margin-top: -27px;
     padding-bottom: 18px; }
   .paddingTopMB {
@@ -686,42 +688,48 @@ body {
     font-size: 40px; }
   .table {
     margin: 0 auto; }
-  .suenos .suenos__titulo {
-    background-color: rgba(68, 226, 247, 0.76);
-    border-radius: 16px;
-    margin: 0 5px 10px 5px; }
-  .suenos .suenos__tabla {
-    position: relative;
-    z-index: -2;
-    margin-bottom: 50px;
-    margin-left: 5px; }
-    .suenos .suenos__tabla .suenos__td {
-      border: 1px rgba(68, 226, 247, 0.76) solid;
-      background-color: rgba(101, 231, 248, 0.76);
-      padding: 5px; }
-  .animales .animales__titulo {
-    background-color: rgba(245, 188, 67, 0.76);
-    border-radius: 16px;
-    margin: 0 5px 10px 5px; }
-  .animales .animales__tabla {
-    position: relative;
-    margin-bottom: 50px;
-    margin-left: 5px; }
-    .animales .animales__tabla .animales__td {
-      border: 1px rgba(245, 188, 67, 0.76) solid;
-      background-color: rgba(241, 193, 89, 0.76);
-      padding: 5px; }
-  .nombres .nombres__titulo {
-    background-color: rgba(247, 68, 68, 0.76);
-    border-radius: 16px;
-    margin: 0 5px 10px 5px; }
-  .nombres .nombres__tabla {
-    position: relative;
-    margin-left: 5px; }
-    .nombres .nombres__tabla .animales__td {
-      border: 1px rgba(247, 68, 68, 0.76) solid;
-      background-color: rgba(248, 124, 124, 0.76);
-      padding: 5px; } }
+  .suenos {
+    margin-right: 10px; }
+    .suenos .suenos__titulo {
+      background-color: rgba(68, 226, 247, 0.76);
+      border-radius: 16px;
+      margin: 0 5px 10px 5px; }
+    .suenos .suenos__tabla {
+      position: relative;
+      z-index: -2;
+      margin-bottom: 50px;
+      margin-left: 5px; }
+      .suenos .suenos__tabla .suenos__td {
+        border: 1px rgba(68, 226, 247, 0.76) solid;
+        background-color: rgba(101, 231, 248, 0.76);
+        padding: 5px; }
+  .animales {
+    margin-right: 10px; }
+    .animales .animales__titulo {
+      background-color: rgba(245, 188, 67, 0.76);
+      border-radius: 16px;
+      margin: 0 5px 10px 5px; }
+    .animales .animales__tabla {
+      position: relative;
+      margin-bottom: 50px;
+      margin-left: 5px; }
+      .animales .animales__tabla .animales__td {
+        border: 1px rgba(245, 188, 67, 0.76) solid;
+        background-color: rgba(241, 193, 89, 0.76);
+        padding: 5px; }
+  .nombres {
+    margin-right: 10px; }
+    .nombres .nombres__titulo {
+      background-color: rgba(247, 68, 68, 0.76);
+      border-radius: 16px;
+      margin: 0 5px 10px 5px; }
+    .nombres .nombres__tabla {
+      position: relative;
+      margin-left: 5px; }
+      .nombres .nombres__tabla .animales__td {
+        border: 1px rgba(247, 68, 68, 0.76) solid;
+        background-color: rgba(248, 124, 124, 0.76);
+        padding: 5px; } }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .titulo__signiNros {
@@ -738,42 +746,48 @@ body {
     font-size: 40px; }
   .table {
     margin: 0 auto; }
-  .suenos .suenos__titulo {
-    background-color: rgba(68, 226, 247, 0.76);
-    border-radius: 16px;
-    margin: 0 5px 10px 5px; }
-  .suenos .suenos__tabla {
-    position: relative;
-    z-index: -2;
-    margin-bottom: 50px;
-    margin-left: 5px; }
-    .suenos .suenos__tabla .suenos__td {
-      border: 1px rgba(68, 226, 247, 0.76) solid;
-      background-color: rgba(101, 231, 248, 0.76);
-      padding: 5px; }
-  .animales .animales__titulo {
-    background-color: rgba(245, 188, 67, 0.76);
-    border-radius: 16px;
-    margin: 0 5px 10px 5px; }
-  .animales .animales__tabla {
-    position: relative;
-    margin-bottom: 50px;
-    margin-left: 5px; }
-    .animales .animales__tabla .animales__td {
-      border: 1px rgba(245, 188, 67, 0.76) solid;
-      background-color: rgba(241, 193, 89, 0.76);
-      padding: 5px; }
-  .nombres .nombres__titulo {
-    background-color: rgba(247, 68, 68, 0.76);
-    border-radius: 16px;
-    margin: 0 5px 10px 5px; }
-  .nombres .nombres__tabla {
-    position: relative;
-    margin-left: 5px; }
-    .nombres .nombres__tabla .animales__td {
-      border: 1px rgba(247, 68, 68, 0.76) solid;
-      background-color: rgba(248, 124, 124, 0.76);
-      padding: 5px; } }
+  .suenos {
+    margin-right: 10px; }
+    .suenos .suenos__titulo {
+      background-color: rgba(68, 226, 247, 0.76);
+      border-radius: 16px;
+      margin: 0 5px 10px 5px; }
+    .suenos .suenos__tabla {
+      position: relative;
+      z-index: -2;
+      margin-bottom: 50px;
+      margin-left: 5px; }
+      .suenos .suenos__tabla .suenos__td {
+        border: 1px rgba(68, 226, 247, 0.76) solid;
+        background-color: rgba(101, 231, 248, 0.76);
+        padding: 5px; }
+  .animales {
+    margin-right: 10px; }
+    .animales .animales__titulo {
+      background-color: rgba(245, 188, 67, 0.76);
+      border-radius: 16px;
+      margin: 0 5px 10px 5px; }
+    .animales .animales__tabla {
+      position: relative;
+      margin-bottom: 50px;
+      margin-left: 5px; }
+      .animales .animales__tabla .animales__td {
+        border: 1px rgba(245, 188, 67, 0.76) solid;
+        background-color: rgba(241, 193, 89, 0.76);
+        padding: 5px; }
+  .nombres {
+    margin-right: 10px; }
+    .nombres .nombres__titulo {
+      background-color: rgba(247, 68, 68, 0.76);
+      border-radius: 16px;
+      margin: 0 5px 10px 5px; }
+    .nombres .nombres__tabla {
+      position: relative;
+      margin-left: 5px; }
+      .nombres .nombres__tabla .animales__td {
+        border: 1px rgba(247, 68, 68, 0.76) solid;
+        background-color: rgba(248, 124, 124, 0.76);
+        padding: 5px; } }
 
 @media (min-width: 1024px) {
   .titulo__resultados {
