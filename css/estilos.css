@@ -35,10 +35,6 @@ body {
   text-align: center; }
 
 @media only screen and (min-width: 1024px) {
-  .titulo {
-    text-align: center; }
-    .titulo div {
-      font-size: 25px; }
   .fondo__nrosquiniela {
     width: 50%; }
   .quiniela__nros {
@@ -468,6 +464,23 @@ body {
     font-size: 20px; }
   .navbar-light .navbar-nav .nav-link {
     color: black; } }
+
+@media (min-width: 1024px) {
+  .titulo {
+    margin-left: -640px;
+    margin-top: 40px; }
+    .titulo div {
+      font-size: 25px; }
+  .logo {
+    text-align: end; }
+    .logo img {
+      width: 15%; } }
+
+@media (max-width: 767px) {
+  .titulo {
+    font-size: 30px; }
+  .logo img {
+    width: 30%; } }
 
 @media only screen and (min-width: 1024px) {
   .pie li {

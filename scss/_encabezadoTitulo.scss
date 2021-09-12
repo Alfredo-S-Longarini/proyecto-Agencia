@@ -1,0 +1,27 @@
+@media (min-width: 1024px){
+    .titulo{
+        margin-left: -640px;
+        margin-top: 40px;
+        div{
+            font-size: 25px;
+        }
+    }
+
+    .logo{
+        text-align: end;
+        img{
+            width: 15%;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .titulo{
+        font-size: 30px;
+    }
+    .logo{
+        img{
+            width: 30%;
+        }
+    }
+}
