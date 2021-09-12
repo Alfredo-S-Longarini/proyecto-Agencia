@@ -516,12 +516,13 @@ body {
 
 @media (min-width: 1030px) and (max-width: 1366px) {
   .titulo {
-    margin-left: -240px;
+    margin-left: -260px;
     margin-top: 40px; }
     .titulo div {
       font-size: 25px; }
   .logo {
-    text-align: end; }
+    text-align: end;
+    margin-left: -90px; }
     .logo img {
       width: 25%; } }
 
@@ -859,9 +860,10 @@ body {
   .table td {
     padding: 3px; }
   .suenos .suenos__titulo {
-    background-color: rgba(68, 226, 247, 0.76);
-    border-radius: 16px;
-    margin: 0 5px 10px 5px; }
+    width: 40%;
+    position: relative;
+    right: 340px;
+    background-color: rgba(68, 226, 247, 0.76); }
   .suenos .suenos__tabla {
     margin-right: 370px; }
     .suenos .suenos__tabla .suenos__td {
@@ -869,9 +871,10 @@ body {
       background-color: rgba(101, 231, 248, 0.76);
       padding: 0; }
   .animales .animales__titulo {
-    background-color: rgba(245, 188, 67, 0.76);
-    border-radius: 16px;
-    margin: 0 5px 10px 5px; }
+    width: 40%;
+    position: relative;
+    right: 340px;
+    background-color: rgba(245, 188, 67, 0.76); }
   .animales .animales__tabla {
     margin-right: 428px; }
     .animales .animales__tabla .animales__td {
@@ -879,9 +882,10 @@ body {
       background-color: rgba(241, 193, 89, 0.76);
       padding: 5px; }
   .nombres .nombres__titulo {
-    background-color: rgba(247, 68, 68, 0.76);
-    border-radius: 16px;
-    margin: 0 5px 10px 5px; }
+    width: 40%;
+    position: relative;
+    right: 340px;
+    background-color: rgba(247, 68, 68, 0.76); }
   .nombres .nombres__tabla {
     margin-right: 428px; }
     .nombres .nombres__tabla .animales__td {

@@ -307,9 +307,10 @@
 
     .suenos{
         .suenos__titulo{
+            width: 40%;
+            position: relative;
+            right: 340px;
             background-color: rgba(68, 226, 247, 0.76);
-            border-radius: 16px;
-            margin: 0 5px 10px 5px;
         }
 
         .suenos__tabla{
@@ -325,9 +326,10 @@
 
     .animales{
         .animales__titulo{
+            width: 40%;
+            position: relative;
+            right: 340px;
             background-color: rgba(245, 188, 67, 0.76);
-            border-radius: 16px;
-            margin: 0 5px 10px 5px;
         }
 
         .animales__tabla{
@@ -342,9 +344,10 @@
 
     .nombres{
         .nombres__titulo{
+            width: 40%;
+            position: relative;
+            right: 340px;
             background-color: rgba(247, 68, 68, 0.76);
-            border-radius: 16px;
-            margin: 0 5px 10px 5px;
         }
 
         .nombres__tabla{
