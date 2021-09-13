@@ -124,191 +124,113 @@
                 </div>
             </div>
 
-            <div class="row row-cols-1 row-cols-md-2">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'Patagonia TV Bingo')" id="defaultOpen">Patagonia TV Bingo</button>
+                        <button class="tablinks" onclick="openCity(event, 'Minibingo')">Minibingo</button>
+                        <button class="tablinks" onclick="openCity(event, 'Loto')">Loto</button>
+                        <button class="tablinks" onclick="openCity(event, 'Quini 6')">Quini 6</button>
+                        <button class="tablinks" onclick="openCity(event, 'Quiniela')">Quiniela</button>
+                        <button class="tablinks" onclick="openCity(event, 'Loteria Unificada')">Loteria Unificada</button>
+                        <button class="tablinks" onclick="openCity(event, 'Brinco')">Brinco</button>
+                        <button class="tablinks" onclick="openCity(event, 'Pozo de la quiniela')">Pozo de la quiniela</button>
+                    </div>
+        
+                    <div id="Patagonia TV Bingo" class="tabcontent">
+                        <img class="imgPatTV" src="../img/patagonia.png" alt="Patagonia">
+                        <h3>Patagonia TV Bingo</h3>
+                        <p>Consiste en la participación
+                            del público apostador a través de la compra de certificados del “bingo” emitidos por
+                            sistema
+                            informático de captación de apuestas, o por cualquier otro medio que expresamente
+                            determinen
+                            las partes, que contengan la cantidad de 15 (quince) números de una combinación en
+                            un
+                            universo de números del 01 al 90 inclusive. Juega los días domingo a las 14 hs.</p>
+                    </div>
+        
+                    <div id="Minibingo" class="tabcontent">
+                        <img class="imgMinibingo" src="../img/minibingo.png" alt="minibingo">
+                        <h3>Minibingo</h3>
+                        <p>Consiste en la participación
+                            del público apostador a través de la compra de certificados del “bingo” emitidos por
+                            sistema
+                            informático de captación de apuestas, o por cualquier otro medio que expresamente
+                            determinen
+                            las partes, que contengan la cantidad de 15 (quince) números de una combinación en
+                            un
+                            universo de números del 01 al 90 inclusive. Sortea de lunes a viernes, al termino
+                            del sorteo
+                            Nocturno de Quiniela tradicional.</p> 
+                    </div>
+        
+                    <div id="Loto" class="tabcontent">
+                        <img class="imgLoto" src="../img/loto.png" alt="loto">
+                        <h3>Loto</h3>
+                        <p>Juego poceado administrado por Lotería de la Ciudad
+                            y consta de tres variantes o
+                            modalidades: La primera versión, denominada “TRADICIONAL”, consiste en seleccionar 6
+                            números, desde el 0 hasta el 41 y además de elegir 2 números más denominados
+                            “JACKPOT” entre
+                            el universo de números del 0 al 9, sin repetir. Días de sorteo Miercoles y Sábados
+                            22 hs.</p> 
+                    </div>
 
-                <div class="col mb-4">
+                    <div id="Quini 6" class="tabcontent">
+                        <img class="imgQuini6" src="../img/quini6juego.png" alt="quini">
+                        <h3>Quini 6</h3>
+                        <p>Quini 6 es un tradicional y reconocido juego de
+                            azar perteneciente a la Caja de Asistencia
+                            Social de Santa Fe. Es de tipo poceado, por lo cual el monto a distribuir en premios
+                            es
+                            directamente proporcional a lo recaudado por la venta del juego. Sortea los días
+                            Miercoles y
+                            Domingos a las 21.15 hs.</p> 
+                    </div>
 
-                    <div class="patTVBingo animate__animated animate__backInDown">
+                    <div id="Quiniela" class="tabcontent">
+                        <img class="imgQuiniela" src="../img/quinielaImagen.png" alt="quiniela">
+                        <h3>Quiniela</h3>
+                        <p>Este juego, se realiza en base a un programa de
+                            sorteos que incluye: los sorteos propios de
+                            Lotería La Neuquina, los de Lotería de La Ciudad, los de Lotería de Río Negro y los
+                            de
+                            Lotería de la Provincia de Buenos Aires. Los sorteos se realizan de lunes a sábado,
+                            cuatro
+                            (4) veces por día: EL PRIMERO, MATUTINO, VESPERTINO Y NOCTURNO y los premios serán
+                            equivalentes al importe apostado.</p> 
+                    </div>
 
-                        <div class="card">
-                            <img src="../img/patagoniaImagen.jpg" class="card-img-top" alt="patagonia">
+                    <div id="Loteria Unificada" class="tabcontent">
+                        <img class="imgLotUni" src="../img/lotUniImagen.png" alt="loteria">
+                        <h3>Loteria Unificada</h3>
+                        <p>La Lotería es uno de los primeros juegos
+                            colectivos de la historia, caracterizado por obtener una amplia aceptación en el
+                            público apostador y permanencia a lo largo del tiempo. Los Sorteos Ordinarios de
+                            Lotería Unificad se realizan los días martes, jueves y sábados a las 21 hs.</p> 
+                    </div>
 
-                            <div class="card-body">
-                                <h5 class="patTVBingo__titulo">Patagonia TV Bingo</h5>
-                                <p class="patTVBingo__info card-text">Tiene las características de un “bingo” o “lotería
-                                    familiar” y consiste en la participación
-                                    del público apostador a través de la compra de certificados del “bingo” emitidos por
-                                    sistema
-                                    informático de captación de apuestas, o por cualquier otro medio que expresamente
-                                    determinen
-                                    las partes, que contengan la cantidad de 15 (quince) números de una combinación en
-                                    un
-                                    universo de números del 01 al 90 inclusive. Juega los días domingo a las 14 hs.</p>
-                            </div>
-                        </div>
+                    <div id="Brinco" class="tabcontent">
+                        <img class="imgBrinco" src="../img/brinco.png" alt="brinco">
+                        <h3>Brinco</h3>
+                        <p>El BRINCO es un juego poceado originario de la
+                            Lotería de Santa Fe, que consta de un
+                            universo de cuarenta números. Para participar, el apostador deberá seleccionar 6
+                            números del
+                            mismo. Los premios se pagan con 6, 5, 4 y 3 aciertos. Sortea los domingos a las 21
+                            hs.</p> 
+                    </div>
 
+                    <div id="Pozo de la quiniela" class="tabcontent">
+                        <img class="imgPozoQuin" src="../img/pozo-de-la-quiniela.jpg" alt="pozo">
+                        <h3>Pozo de la quiniela</h3>
+                        <p>Es un juego de tipo poceado creado por Lotería La
+                            Neuquina, con una vigencia de más de 21
+                            años, que sortea dos veces por día (Modalidad Matutino y Nocturno).</p> 
                     </div>
 
                 </div>
-
-                <div class="col mb-4">
-
-                    <div class="miniBingo animate__animated animate__backInDown">
-
-                        <div class="card">
-                            <img src="../img/minibingo2.png" class="card-img-top" alt="minibingo">
-
-                            <div class="card-body">
-                                <h5 class="miniBingo__titulo">Minibingo</h5>
-                                <p class="card-text">Tiene las características de un “bingo” o “lotería familiar” y
-                                    consiste en la participación
-                                    del público apostador a través de la compra de certificados del “bingo” emitidos por
-                                    sistema
-                                    informático de captación de apuestas, o por cualquier otro medio que expresamente
-                                    determinen
-                                    las partes, que contengan la cantidad de 15 (quince) números de una combinación en
-                                    un
-                                    universo de números del 01 al 90 inclusive. Sortea de lunes a viernes, al termino
-                                    del sorteo
-                                    Nocturno de Quiniela tradicional.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col mb-4">
-
-                    <div class="lotoJuego animate__animated animate__backInLeft animate__delay-1s">
-
-                        <div class="card">
-                            <img src="../img/lotoImagen.jpg" class="card-img-top" alt="loto">
-
-                            <div class="card-body">
-                                <h5 class="lotoJuego__titulo">Loto Plus</h5>
-                                <p class="lotoJuego__info card-text">Juego poceado administrado por Lotería de la Ciudad
-                                    y consta de tres variantes o
-                                    modalidades: La primera versión, denominada “TRADICIONAL”, consiste en seleccionar 6
-                                    números, desde el 0 hasta el 41 y además de elegir 2 números más denominados
-                                    “JACKPOT” entre
-                                    el universo de números del 0 al 9, sin repetir. Días de sorteo Miercoles y Sábados
-                                    22 hs.</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="col mb-4">
-
-                    <div class="quini6Juego animate__animated animate__backInRight animate__delay-1s">
-
-                        <div class="card">
-                            <img src="../img/quini6.png" class="card-img-top quini6Juego__imagen" alt="quini6">
-
-                            <div class="card-body">
-                                <h5 class="quini6Juego__titulo">Quini 6</h5>
-                                <p class="quini6Juego__info card-text">Quini 6 es un tradicional y reconocido juego de
-                                    azar perteneciente a la Caja de Asistencia
-                                    Social de Santa Fe. Es de tipo poceado, por lo cual el monto a distribuir en premios
-                                    es
-                                    directamente proporcional a lo recaudado por la venta del juego. Sortea los días
-                                    Miercoles y
-                                    Domingos a las 21.15 hs.</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="col mb-4">
-
-                    <div class="quinielaJuego animate__animated animate__backInLeft animate__delay-2s">
-
-                        <div class="card">
-                            <img src="../img/quinielaImagen.png" class="card-img-top quinielaJuego__imagen"
-                                alt="quiniela">
-
-                            <div class="card-body">
-                                <h5 class="quinielaJuego__titulo">Quiniela</h5>
-                                <p class="quinielaJuego__info card-text">Este juego, se realiza en base a un programa de
-                                    sorteos que incluye: los sorteos propios de
-                                    Lotería La Neuquina, los de Lotería de La Ciudad, los de Lotería de Río Negro y los
-                                    de
-                                    Lotería de la Provincia de Buenos Aires. Los sorteos se realizan de lunes a sábado,
-                                    cuatro
-                                    (4) veces por día: EL PRIMERO, MATUTINO, VESPERTINO Y NOCTURNO y los premios serán
-                                    equivalentes al importe apostado.</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="col mb-4">
-
-                    <div class="lotUniJuego animate__animated animate__backInRight animate__delay-2s">
-
-                        <div class="card">
-                            <img src="../img/lotUniImagen.png" class="card-img-top lotoUniJuego__imagen"
-                                alt="loteriaUnificada">
-
-                            <div class="card-body">
-                                <h5 class="lotUniJuego__titulo">Loteria Unificada</h5>
-                                <p class="lotUniJuego__info card-text">La Lotería es uno de los primeros juegos
-                                    colectivos de la historia, caracterizado por obtener una amplia aceptación en el
-                                    público apostador y permanencia a lo largo del tiempo. Los Sorteos Ordinarios de
-                                    Lotería Unificad se realizan los días martes, jueves y sábados a las 21 hs.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col mb-4">
-
-                    <div class="brincoJuego animate__animated animate__bounceInUp animate__delay-3s">
-
-                        <div class="card">
-                            <img src="../img/brinco.png" class="card-img-top brincoJuego__imagen" alt="brinco">
-
-                            <div class="card-body">
-                                <h5 class="brincoJuego__titulo">Brinco</h5>
-                                <p class="brincoJuego__info card-text">El BRINCO es un juego poceado originario de la
-                                    Lotería de Santa Fe, que consta de un
-                                    universo de cuarenta números. Para participar, el apostador deberá seleccionar 6
-                                    números del
-                                    mismo. Los premios se pagan con 6, 5, 4 y 3 aciertos. Sortea los domingos a las 21
-                                    hs.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col mb-4">
-
-                    <div class="pozoQuin animate__animated animate__bounceInUp animate__delay-3s">
-
-                        <div class="card">
-                            <img src="../img/pozo-de-la-quiniela.jpg" class="card-img-top pozoQuin__imagen"
-                                alt="pozoDelaQuiniela">
-
-                            <div class="card-body">
-                                <h5 class="pozoQuin__titulo">Pozo de la quiniela</h5>
-                                <p class="pozoQuin__info card-text">Es un juego de tipo poceado creado por Lotería La
-                                    Neuquina, con una vigencia de más de 21
-                                    años, que sortea dos veces por día (Modalidad Matutino y Nocturno).</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
             </div>
 
         </main>
@@ -374,6 +296,26 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
             crossorigin="anonymous"></script>
+
+        <!-- Script extras-->
+        <script>
+            function openCity(evt, cityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+            
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+        </script>
 
     </div>
 
