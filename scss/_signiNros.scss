@@ -102,13 +102,13 @@
         padding-top: 10px;
         text-align: center;
         text-decoration: underline;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .info__signiNros{
         text-align: center;
         font-size: 20px;
-        padding: 10px 0;
+        padding: 10px 5px;
     }
 
     .suenos .suenos__titulo, .animales .animales__titulo, .nombres .nombres__titulo{
@@ -281,6 +281,10 @@
 
 }
 
+// ----------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------
+// Vista LAPTOP
 @media (min-width: 1030px) and (max-width: 1366px){
 
     .titulo__signiNros{
