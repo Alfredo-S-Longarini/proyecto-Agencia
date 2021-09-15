@@ -1104,8 +1104,6 @@ body {
     text-align: center;
     font-size: 20px;
     padding: 10px 0; }
-  .paddingBot {
-    padding-bottom: 20px; }
   .btn__resultados {
     font-weight: bold;
     color: black;
@@ -1118,46 +1116,29 @@ body {
     color: black !important;
     background: #e7e7e7;
     text-decoration: none; }
+  .tablaPatv, .tablaMinibingo, .tablaLoto, .tablaQuini, .tablaLotUni, .tablaBrinco, .tablaPozo {
+    border-radius: 16px;
+    margin-bottom: 20px; }
+  .resultadosPatagonia, .resultadosMinibingo, .resultadosLoto, .resultadosQuini6, .resultadosQuiniela, .resultadosLoteria, .resultadosBrinco, .resultadosPozo {
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    border-radius: 20px; }
   .resultadosPatagonia {
-    margin: 0 10px;
-    padding-bottom: 15px;
-    background: #9b59b6;
-    border-radius: 20px; }
+    background: #9b59b6; }
   .resultadosMinibingo {
-    margin: 0 10px;
-    padding-bottom: 15px;
-    background: #67a57f;
-    border-radius: 16px; }
+    background: #67a57f; }
   .resultadosLoto {
-    margin: 0 10px;
-    padding-bottom: 15px;
-    background: #d45a5a;
-    border-radius: 20px; }
+    background: #d45a5a; }
   .resultadosQuini6 {
-    margin: 0 10px;
-    padding-bottom: 15px;
-    background: #689dcf;
-    border-radius: 20px; }
+    background: #689dcf; }
   .resultadosQuiniela {
-    margin: 0 10px;
-    padding-bottom: 15px;
-    background: #2e43ff;
-    border-radius: 20px; }
+    background: #2e43ff; }
   .resultadosLoteria {
-    margin: 0 10px;
-    padding-bottom: 15px;
-    background: #cdcece;
-    border-radius: 20px; }
+    background: #cdcece; }
   .resultadosBrinco {
-    margin: 0 10px;
-    padding-bottom: 15px;
-    background: #e7e43b;
-    border-radius: 20px; }
+    background: #e7e43b; }
   .resultadosPozo {
-    margin: 0 10px;
-    padding-bottom: 15px;
-    background: #2e43ff;
-    border-radius: 20px; } }
+    background: #2e43ff; } }
 
 @media (max-width: 767px) {
   .titulo__resultados {
@@ -1168,8 +1149,6 @@ body {
     text-align: center;
     font-size: 20px;
     padding: 10px 5px; }
-  .paddingBot {
-    padding-bottom: 20px; }
   .btn__resultados {
     font-weight: bold;
     color: black;
@@ -1182,46 +1161,31 @@ body {
     color: black !important;
     background: #e7e7e7;
     text-decoration: none; }
+  .tablaPatv, .tablaMinibingo, .tablaLoto, .tablaQuini, .tablaLotUni, .tablaBrinco, .tablaPozo {
+    border-radius: 16px;
+    margin-bottom: 20px; }
+  .tablaPatv {
+    width: 50%; }
+  .resultadosPatagonia, .resultadosMinibingo, .resultadosLoto, .resultadosQuini6, .resultadosQuiniela, .resultadosLoteria, .resultadosBrinco, .resultadosPozo {
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    border-radius: 20px; }
   .resultadosPatagonia {
-    margin: 0 10px;
-    padding-bottom: 15px;
-    background: #9b59b6;
-    border-radius: 20px; }
+    background: #9b59b6; }
   .resultadosMinibingo {
-    margin: 0 10px;
-    padding-bottom: 15px;
-    background: #67a57f;
-    border-radius: 16px; }
+    background: #67a57f; }
   .resultadosLoto {
-    margin: 0 10px;
-    padding-bottom: 15px;
-    background: #d45a5a;
-    border-radius: 20px; }
+    background: #d45a5a; }
   .resultadosQuini6 {
-    margin: 0 10px;
-    padding-bottom: 15px;
-    background: #689dcf;
-    border-radius: 20px; }
+    background: #689dcf; }
   .resultadosQuiniela {
-    margin: 0 10px;
-    padding-bottom: 15px;
-    background: #2e43ff;
-    border-radius: 20px; }
+    background: #2e43ff; }
   .resultadosLoteria {
-    margin: 0 10px;
-    padding-bottom: 15px;
-    background: #cdcece;
-    border-radius: 20px; }
+    background: #cdcece; }
   .resultadosBrinco {
-    margin: 0 10px;
-    padding-bottom: 15px;
-    background: #e7e43b;
-    border-radius: 20px; }
+    background: #e7e43b; }
   .resultadosPozo {
-    margin: 0 10px;
-    padding-bottom: 15px;
-    background: #2e43ff;
-    border-radius: 20px; } }
+    background: #2e43ff; } }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .titulo__resultados {
