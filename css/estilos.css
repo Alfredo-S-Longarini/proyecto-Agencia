@@ -54,8 +54,9 @@ body {
     padding-top: 50px; }
   .rionegrina__logo {
     padding-top: 10px;
-    padding-bottom: 20px; }
+    padding-bottom: 45px; }
   .neuquina__logo {
+    padding-bottom: 24px;
     margin-top: 10px;
     width: 33%; }
   .ciudad__logo {
@@ -159,10 +160,6 @@ body {
     transform: scale(0.98); } }
 
 @media only screen and (max-width: 767px) {
-  .titulo {
-    text-align: center; }
-    .titulo div {
-      font-size: 25px; }
   .fondo__nrosquiniela {
     width: 63%; }
   .quiniela__nros {
@@ -189,15 +186,15 @@ body {
   .rionegrina__logo {
     width: 95%;
     padding-left: 10px;
-    padding-bottom: 10px; }
+    padding-bottom: 34px; }
   .neuquina__logo {
     width: 75%;
     margin-top: 22px;
-    margin-bottom: -17px; }
+    padding-bottom: 8px; }
   .ciudad__logo {
     width: 70%;
     margin-top: -80px;
-    margin-bottom: -40px; }
+    margin-bottom: -49px; }
   .provincia__logo {
     width: 70%;
     margin-top: -27px;
@@ -297,10 +294,6 @@ body {
     transform: scale(0.98); } }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .titulo {
-    text-align: center; }
-    .titulo div {
-      font-size: 25px; }
   .fondo__nrosquiniela {
     width: 63%; }
   .quiniela__nros {
@@ -643,7 +636,6 @@ body {
     width: 40%;
     padding-top: 15px;
     padding-bottom: 15px; }
-  /* Style the tab */
   .tab {
     margin-left: 250px;
     float: left;
@@ -651,7 +643,6 @@ body {
     background-color: #f1f1f1;
     width: 15%;
     height: 570px; }
-  /* Style the buttons inside the tab */
   .tab button {
     display: block;
     background-color: inherit;
@@ -664,13 +655,10 @@ body {
     cursor: pointer;
     transition: 0.3s;
     font-size: 17px; }
-  /* Change background color of buttons on hover */
   .tab button:hover {
     background-color: #ddd; }
-  /* Create an active/current "tab button" class */
   .tab button.active {
     background-color: #ccc; }
-  /* Style the tab content */
   .tabcontent {
     margin-right: 20px;
     float: left;
@@ -724,7 +712,6 @@ body {
     width: 90%;
     padding-top: 15px;
     padding-bottom: 15px; }
-  /* Style the tab */
   .tab {
     margin-left: 18px;
     float: left;
@@ -732,7 +719,6 @@ body {
     background-color: #f1f1f1;
     width: 30%;
     height: 670px; }
-  /* Style the buttons inside the tab */
   .tab button {
     display: block;
     background-color: inherit;
@@ -745,13 +731,10 @@ body {
     cursor: pointer;
     transition: 0.3s;
     font-size: 17px; }
-  /* Change background color of buttons on hover */
   .tab button:hover {
     background-color: #ddd; }
-  /* Create an active/current "tab button" class */
   .tab button.active {
     background-color: #ccc; }
-  /* Style the tab content */
   .tabcontent {
     float: left;
     padding: 0px 10px;
@@ -804,15 +787,13 @@ body {
     width: 90%;
     padding-top: 15px;
     padding-bottom: 15px; }
-  /* Style the tab */
   .tab {
-    margin-left: 18px;
+    margin-left: 35px;
     float: left;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
     width: 30%;
     height: 670px; }
-  /* Style the buttons inside the tab */
   .tab button {
     display: block;
     background-color: inherit;
@@ -825,13 +806,10 @@ body {
     cursor: pointer;
     transition: 0.3s;
     font-size: 17px; }
-  /* Change background color of buttons on hover */
   .tab button:hover {
     background-color: #ddd; }
-  /* Create an active/current "tab button" class */
   .tab button.active {
     background-color: #ccc; }
-  /* Style the tab content */
   .tabcontent {
     float: left;
     padding: 0px 10px;
@@ -866,7 +844,6 @@ body {
     background-color: #ddd; }
   .tab button.active {
     background-color: #ccc; }
-  /* Style the tab content */
   .tabcontent {
     float: left;
     padding: 0px 10px;

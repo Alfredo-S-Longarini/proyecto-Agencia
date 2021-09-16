@@ -3,7 +3,7 @@
 // ----------------------------------------------------------------------------------------
 // Vista DESKTOP
 @media (min-width: 1024px){
-    
+    // ----------------------------------------
     .titulo__signiNros{
         padding-top: 10px;
         text-align: center;
@@ -16,6 +16,9 @@
         font-size: 20px;
         padding: 10px 0;
     }
+    // ----------------------------------------
+
+    // ----------------------------------------
 
     .suenos .suenos__titulo, .animales .animales__titulo, .nombres .nombres__titulo{
             text-align: center;
@@ -27,6 +30,8 @@
         width: 50%;
         margin: 0 auto;
     }
+
+    // ----------------------------------------
 
     .suenos{
 
@@ -50,6 +55,8 @@
 
     }
 
+    // ----------------------------------------
+
     .animales{
 
         .animales__titulo{
@@ -70,6 +77,8 @@
         }
     }
 
+    // ----------------------------------------
+
     .nombres{
 
         .nombres__titulo{
@@ -87,8 +96,6 @@
                 padding: 5px;
             }
         }
-    
-
     }
 }
 
@@ -97,7 +104,7 @@
 // ----------------------------------------------------------------------------------------
 // Vista MOBILE
 @media (max-width: 767px){
-
+    // ----------------------------------------
     .titulo__signiNros{
         padding-top: 10px;
         text-align: center;
@@ -111,6 +118,8 @@
         padding: 10px 5px;
     }
 
+    // ----------------------------------------
+
     .suenos .suenos__titulo, .animales .animales__titulo, .nombres .nombres__titulo{
             text-align: center;
             font-size: 40px;
@@ -118,6 +127,8 @@
     .table{
         margin: 0 auto;
     }
+
+    // ----------------------------------------
 
     .suenos{
         margin-right: 10px;
@@ -142,6 +153,8 @@
 
     }
 
+    // ----------------------------------------
+
     .animales{
         margin-right: 10px;
         .animales__titulo{
@@ -162,6 +175,8 @@
             }
         }
     }
+
+    // ----------------------------------------
 
     .nombres{
         margin-right: 10px;
@@ -191,7 +206,7 @@
 // ----------------------------------------------------------------------------------------
 // Vista TABLET
 @media (min-width: 768px) and (max-width: 1023px){
-
+    // ----------------------------------------
     .titulo__signiNros{
         padding-top: 10px;
         text-align: center;
@@ -205,6 +220,8 @@
         padding: 10px 0;
     }
 
+    // ----------------------------------------
+
     .suenos .suenos__titulo, .animales .animales__titulo, .nombres .nombres__titulo{
             text-align: center;
             font-size: 40px;
@@ -212,6 +229,8 @@
     .table{
         margin: 0 auto;
     }
+
+    // ----------------------------------------
 
     .suenos{
         margin-right: 10px;
@@ -236,6 +255,8 @@
 
     }
 
+    // ----------------------------------------
+
     .animales{
         margin-right: 10px;
         .animales__titulo{
@@ -257,6 +278,8 @@
         }
     }
 
+    // ----------------------------------------
+
     .nombres{
         margin-right: 10px;
         .nombres__titulo{
@@ -275,8 +298,6 @@
                 padding: 5px;
             }
         }
-    
-
     }
 
 }
@@ -286,7 +307,7 @@
 // ----------------------------------------------------------------------------------------
 // Vista LAPTOP
 @media (min-width: 1030px) and (max-width: 1366px){
-
+    // ----------------------------------------
     .titulo__signiNros{
         padding-top: 10px;
         text-align: center;
@@ -300,6 +321,8 @@
         padding: 10px 0;
     }
 
+    // ----------------------------------------
+
     .suenos .suenos__titulo, .animales .animales__titulo, .nombres .nombres__titulo{
             text-align: center;
             font-size: 40px;
@@ -308,6 +331,8 @@
     .table td{
         padding: 3px;
     }
+
+    // ----------------------------------------
 
     .suenos{
         .suenos__titulo{
@@ -328,6 +353,8 @@
 
     }
 
+    // ----------------------------------------
+
     .animales{
         .animales__titulo{
             width: 40%;
@@ -346,6 +373,8 @@
         }
     }
 
+    // ----------------------------------------
+
     .nombres{
         .nombres__titulo{
             width: 40%;
@@ -362,7 +391,5 @@
                 padding: 5px;
             }
         }
-    
-
     }
 }

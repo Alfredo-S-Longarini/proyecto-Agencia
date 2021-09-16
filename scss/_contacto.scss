@@ -3,7 +3,7 @@
 // ----------------------------------------------------------------------------------------
 // Vista DESKTOP
 @media (min-width: 1024px){
-
+    // ----------------------------------------
     .ubTitle{
         padding-top: 10px;
         text-align: center;
@@ -11,11 +11,15 @@
         font-size: 30px;
     }
 
+    // ----------------------------------------
+
     .border{
         text-align: center;
         border-radius: 4px;
         padding: 5px 0;
     }
+
+    // ----------------------------------------
 
     .formulario__datos{
         border: 1px rgb(190, 190, 190) solid;
@@ -32,6 +36,8 @@
         font-size: 30px;
     }
 
+    // ----------------------------------------
+
     .center{
         text-align: center;
         padding: 20px 0 20px 0;
@@ -45,6 +51,8 @@
     .ubicacion__mapa{
         border-radius: 10px;
     }
+
+    // ----------------------------------------
 }
 
 // ----------------------------------------------------------------------------------------
@@ -52,17 +60,22 @@
 // ----------------------------------------------------------------------------------------
 // Vista MOBILE
 @media (max-width: 767px){
+    // ----------------------------------------
     .ubTitle{
         text-align: center;
         text-decoration: underline;
         font-size: 25px;
     }
 
+    // ----------------------------------------
+
     .border{
         text-align: center;
         border-radius: 4px;
         padding: 5px 0;
     }
+
+    // ----------------------------------------
 
     .formulario__datos{
         border: 1px rgb(190, 190, 190) solid;
@@ -79,6 +92,8 @@
         font-size: 25px;
     }
 
+    // ----------------------------------------
+
     .ubicacion{
         position: relative;
         padding-bottom: 15px;
@@ -88,6 +103,8 @@
         width: 90%;
         border-radius: 10px;
     }
+
+    // ----------------------------------------
 }
 
 // ----------------------------------------------------------------------------------------
@@ -95,6 +112,7 @@
 // ----------------------------------------------------------------------------------------
 // Vista TABLET
 @media (min-width: 768px) and (max-width: 1023px){
+    // ----------------------------------------
     .ubTitle{
         text-align: center;
         text-decoration: underline;
@@ -106,6 +124,8 @@
         border-radius: 4px;
         padding: 5px 0;
     }
+
+    // ----------------------------------------
 
     .formulario__datos{
         border: 1px rgb(190, 190, 190) solid;
@@ -122,6 +142,8 @@
         font-size: 30px;
     }
 
+    // ----------------------------------------
+
     .ubicacion{
         position: relative;
         padding-bottom: 15px;
@@ -131,4 +153,6 @@
         width: 90%;
         border-radius: 10px;
     }
+
+    // ----------------------------------------
 }

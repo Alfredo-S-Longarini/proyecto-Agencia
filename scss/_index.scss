@@ -3,9 +3,6 @@
 // ----------------------------------------------------------------------------------------
 // Vista DESKTOP
 @media only screen and (min-width: 1024px){
-    $paddLeft: 180px;
-    $ancho: 450px;
-    $alto: 210px;
 
     // --------------------------------------------------
     // Slider quinielas.
@@ -18,7 +15,7 @@
     }
 
     .paddingLeftBot{
-        padding-left: $paddLeft+35px;
+        padding-left: 215px;
         padding-bottom: 50px;
     }
 
@@ -41,10 +38,11 @@
     
     .rionegrina__logo{
         padding-top: 10px;
-        padding-bottom: 20px;
+        padding-bottom: 45px;
     }
     
     .neuquina__logo{
+        padding-bottom: 24px;
         margin-top: 10px;
         width: 33%;
     }
@@ -206,13 +204,6 @@
 // Vista MOBILE
 @media only screen and (max-width: 767px){
 
-    .titulo{
-        text-align: center;
-        div{
-            font-size: 25px;
-        }
-    }
-
     // --------------------------------------------------
     // Slider quinielas.
 
@@ -258,19 +249,19 @@
     .rionegrina__logo{
         width: 95%;
         padding-left: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 34px;
     }
     
     .neuquina__logo{
         width: 75%;
         margin-top: 22px;
-        margin-bottom: -17px;
+        padding-bottom: 8px;
     }
     
     .ciudad__logo{
         width: 70%;
         margin-top: -80px;
-        margin-bottom: -40px;
+        margin-bottom: -49px;
     }
     
     .provincia__logo{
@@ -427,12 +418,6 @@
 // ----------------------------------------------------------------------------------------
 // Vista TABLET
 @media (min-width: 768px) and (max-width: 1023px){
-    .titulo{
-        text-align: center;
-        div{
-            font-size: 25px;
-        }
-    }
 
     // --------------------------------------------------
     // Slider quinielas.

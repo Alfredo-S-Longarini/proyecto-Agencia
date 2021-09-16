@@ -4,6 +4,7 @@
 // Vista DESKTOP
 @media (min-width: 1024px){
 
+    // ----------------------------------------
     .titulo__juegos{
         padding-top: 11px;
         text-align: center;
@@ -16,7 +17,9 @@
         font-size: 20px;
         padding: 10px 5px;
     }
+    // ----------------------------------------
 
+    // ----------------------------------------
     .imgPatTV{
         width: 50%;
         padding-top: 15px;
@@ -65,7 +68,9 @@
         padding-bottom: 15px;
     }
 
-    /* Style the tab */
+    // ----------------------------------------
+
+    // ----------------------------------------
     .tab {
         margin-left: 250px;
         float: left;
@@ -75,7 +80,6 @@
         height: 570px;
     }
 
-    /* Style the buttons inside the tab */
     .tab button {
         display: block;
         background-color: inherit;
@@ -90,17 +94,14 @@
         font-size: 17px;
     }
 
-    /* Change background color of buttons on hover */
     .tab button:hover {
         background-color: #ddd;
     }
 
-    /* Create an active/current "tab button" class */
     .tab button.active {
         background-color: #ccc;
     }
 
-    /* Style the tab content */
     .tabcontent {
         margin-right: 20px;
         float: left;
@@ -113,6 +114,7 @@
             text-align: start;
         }
     } 
+    // ----------------------------------------
 }  
 
 // ----------------------------------------------------------------------------------------
@@ -120,6 +122,8 @@
 // ----------------------------------------------------------------------------------------
 // Vista MOBILE
 @media (max-width: 767px){
+
+    // ----------------------------------------
     .titulo__juegos{
         padding-top: 10px;
         text-align: center;
@@ -132,7 +136,9 @@
         font-size: 20px;
         padding: 10px 5px;
     }
+    // ----------------------------------------
 
+    // ----------------------------------------
     .imgPatTV{
         width: 100%;
         padding-top: 15px;
@@ -180,7 +186,9 @@
         padding-top: 15px;
         padding-bottom: 15px;
     }
-    /* Style the tab */
+    // ----------------------------------------
+
+    // ----------------------------------------
     .tab {
         margin-left: 18px;
         float: left;
@@ -190,7 +198,6 @@
         height: 670px;
     }
 
-    /* Style the buttons inside the tab */
     .tab button {
         display: block;
         background-color: inherit;
@@ -205,17 +212,14 @@
         font-size: 17px;
     }
 
-    /* Change background color of buttons on hover */
     .tab button:hover {
         background-color: #ddd;
     }
 
-    /* Create an active/current "tab button" class */
     .tab button.active {
         background-color: #ccc;
     }
 
-    /* Style the tab content */
     .tabcontent {
         float: left;
         padding: 0px 10px;
@@ -228,6 +232,7 @@
             text-align: start;
         }
     }
+    // ----------------------------------------
 }
 
 // ----------------------------------------------------------------------------------------
@@ -235,6 +240,7 @@
 // ----------------------------------------------------------------------------------------
 // Vista TABLET
 @media (min-width: 768px) and (max-width: 1023px){
+    // ----------------------------------------
     .titulo__juegos{
         padding-top: 10px;
         text-align: center;
@@ -247,6 +253,10 @@
         font-size: 20px;
         padding: 10px 5px;
     }
+
+    // ----------------------------------------
+
+    // ----------------------------------------
 
     .imgPatTV{
         width: 100%;
@@ -295,9 +305,11 @@
         padding-top: 15px;
         padding-bottom: 15px;
     }
-    /* Style the tab */
+    // ----------------------------------------
+
+    // ----------------------------------------
     .tab {
-        margin-left: 18px;
+        margin-left: 35px;
         float: left;
         border: 1px solid #ccc;
         background-color: #f1f1f1;
@@ -305,7 +317,6 @@
         height: 670px;
     }
 
-    /* Style the buttons inside the tab */
     .tab button {
         display: block;
         background-color: inherit;
@@ -320,17 +331,14 @@
         font-size: 17px;
     }
 
-    /* Change background color of buttons on hover */
     .tab button:hover {
         background-color: #ddd;
     }
 
-    /* Create an active/current "tab button" class */
     .tab button.active {
         background-color: #ccc;
     }
 
-    /* Style the tab content */
     .tabcontent {
         float: left;
         padding: 0px 10px;
@@ -343,6 +351,7 @@
             text-align: start;
         }
     }
+    // ----------------------------------------
 }
 
 // ----------------------------------------------------------------------------------------
@@ -350,7 +359,6 @@
 // ----------------------------------------------------------------------------------------
 // Vista LAPTOP
 @media (min-width: 1030px) and (max-width: 1366px){
-
     .tab {
         margin-left: 60px;
         float: left;
@@ -382,7 +390,6 @@
         background-color: #ccc;
     }
 
-    /* Style the tab content */
     .tabcontent {
         float: left;
         padding: 0px 10px;

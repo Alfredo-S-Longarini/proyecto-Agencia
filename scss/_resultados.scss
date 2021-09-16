@@ -3,6 +3,7 @@
 // ----------------------------------------------------------------------------------------
 // Vista DESKTOP
 @media (min-width: 1024px){
+    // ----------------------------------------
     .titulo__resultados{
         padding-top: 10px;
         text-align: center;
@@ -16,6 +17,8 @@
         padding: 10px 0;
     }
 
+    // ----------------------------------------
+
     .btn__resultados{
         font-weight: bold;
         color: $negro ;
@@ -31,6 +34,8 @@
         background: #e7e7e7;
         text-decoration: none;
     }
+
+    // ----------------------------------------
 
     .tablaPatv, .tablaMinibingo, .tablaLoto, .tablaQuini, .tablaLotUni, .tablaBrinco, .tablaPozo{
         border-radius: 16px;
@@ -44,46 +49,66 @@
         }
     }
 
+    // ----------------------------------------
+
     .resultadosPatagonia, .resultadosMinibingo, .resultadosLoto, .resultadosQuini6, .resultadosQuiniela, .resultadosLoteria, .resultadosBrinco, .resultadosPozo{
         margin: 0 15px;
         padding-bottom: 15px;
         margin-bottom: 30px;
         border-radius: 20px;
     }
+
+    // ----------------------------------------
     
     .resultadosPatagonia{
         background: $patagonia;
     }
+
+    // ----------------------------------------
     
     .resultadosMinibingo{
         background: $minibingo;
         padding-bottom: 265px;
     }
+
+    // ----------------------------------------
     
     .resultadosLoto{
         background: $loto;
         padding-bottom: 214px;
     }
+
+    // ----------------------------------------
     
     .resultadosQuini6{
         background: $quini6;
     }
+
+    // ----------------------------------------
     
     .resultadosQuiniela{
         background: $quiniela;
     }
+
+    // ----------------------------------------
     
     .resultadosLoteria{
         background: $loteria;
     }
+
+    // ----------------------------------------
     
     .resultadosBrinco{
         background: $brinco; 
     }
     
+    // ----------------------------------------
+
     .resultadosPozo{
         background: $quiniela;
     }
+
+    // ----------------------------------------
 }
 
 // ----------------------------------------------------------------------------------------
@@ -91,6 +116,7 @@
 // ----------------------------------------------------------------------------------------
 // Vista MOBILE
 @media (max-width: 767px){
+    // ----------------------------------------
     .titulo__resultados{
         text-align: center;
         text-decoration: underline;
@@ -102,6 +128,8 @@
         font-size: 20px;
         padding: 10px 5px;
     }
+
+    // ----------------------------------------
 
     .btn__resultados{
         font-weight: bold;
@@ -118,6 +146,8 @@
         background: #e7e7e7;
         text-decoration: none;
     }
+
+    // ----------------------------------------
     
     .tablaPatv, .tablaMinibingo, .tablaLoto, .tablaQuini, .tablaLotUni, .tablaBrinco, .tablaPozo{
         margin: 0 5px 20px 5px;
@@ -130,43 +160,63 @@
         }
     }
 
+    // ----------------------------------------
+
     .resultadosPatagonia, .resultadosMinibingo, .resultadosLoto, .resultadosQuini6, .resultadosQuiniela, .resultadosLoteria, .resultadosBrinco, .resultadosPozo{
         padding-bottom: 15px;
         margin: 0 10px 30px 10px;
         border-radius: 20px;
     }
+
+    // ----------------------------------------
     
     .resultadosPatagonia{
         background: $patagonia;
     }
+
+    // ----------------------------------------
     
     .resultadosMinibingo{
         background: $minibingo;
     }
+
+    // ----------------------------------------
     
     .resultadosLoto{
         background: $loto;
     }
+
+    // ----------------------------------------
     
     .resultadosQuini6{
         background: $quini6;
     }
+
+    // ----------------------------------------
     
     .resultadosQuiniela{
         background: $quiniela;
     }
+
+    // ----------------------------------------
     
     .resultadosLoteria{
         background: $loteria;
     }
+
+    // ----------------------------------------
     
     .resultadosBrinco{
         background: $brinco; 
     }
+
+    // ----------------------------------------
     
     .resultadosPozo{
         background: $quiniela;
     }
+
+    // ----------------------------------------
 }
 
 // ----------------------------------------------------------------------------------------
@@ -174,6 +224,7 @@
 // ----------------------------------------------------------------------------------------
 // Vista TABLET
 @media (min-width: 768px) and (max-width: 1023px){
+    // ----------------------------------------
     .titulo__resultados{
         text-align: center;
         text-decoration: underline;
@@ -185,6 +236,8 @@
         font-size: 20px;
         padding: 10px 5px;
     }
+
+    // ----------------------------------------
 
     .btn__resultados{
         font-weight: bold;
@@ -201,6 +254,8 @@
         background: #e7e7e7;
         text-decoration: none;
     }
+
+    // ----------------------------------------
     
     .tablaPatv, .tablaMinibingo, .tablaLoto, .tablaQuini, .tablaLotUni, .tablaBrinco, .tablaPozo{
         margin: 0 5px 20px 5px;
@@ -213,41 +268,61 @@
         }
     }
 
+    // ----------------------------------------
+
     .resultadosPatagonia, .resultadosMinibingo, .resultadosLoto, .resultadosQuini6, .resultadosQuiniela, .resultadosLoteria, .resultadosBrinco, .resultadosPozo{
         padding-bottom: 15px;
         margin: 0 10px 30px 10px;
         border-radius: 20px;
     }
+
+    // ----------------------------------------
     
     .resultadosPatagonia{
         background: $patagonia;
     }
+
+    // ----------------------------------------
     
     .resultadosMinibingo{
         background: $minibingo;
     }
+
+    // ----------------------------------------
     
     .resultadosLoto{
         background: $loto;
     }
+
+    // ----------------------------------------
     
     .resultadosQuini6{
         background: $quini6;
     }
+
+    // ----------------------------------------
     
     .resultadosQuiniela{
         background: $quiniela;
     }
+
+    // ----------------------------------------
     
     .resultadosLoteria{
         background: $loteria;
     }
+
+    // ----------------------------------------
     
     .resultadosBrinco{
         background: $brinco; 
     }
+
+    // ----------------------------------------
     
     .resultadosPozo{
         background: $quiniela;
     }
+
+    // ----------------------------------------
 }
