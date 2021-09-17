@@ -1100,29 +1100,55 @@ body {
       color: white; }
     .tablaPatv .sorteo, .tablaMinibingo .sorteo, .tablaLoto .sorteo, .tablaQuini .sorteo, .tablaLotUni .sorteo, .tablaBrinco .sorteo, .tablaPozo .sorteo {
       background-color: #e2e2e2; }
-  .resultadosPatagonia, .resultadosMinibingo, .resultadosLoto, .resultadosQuini6, .resultadosQuiniela, .resultadosLoteria, .resultadosBrinco, .resultadosPozo {
+  .resultadosPatagonia, .resultadosMinibingo, .resultadosLoto, .resultadosQuini6, .resultadosQuiniela, .resultadosLotUni, .resultadosBrinco, .resultadosPozo {
     margin: 0 15px;
     padding-bottom: 15px;
     margin-bottom: 30px;
     border-radius: 20px; }
+    .resultadosPatagonia table, .resultadosMinibingo table, .resultadosLoto table, .resultadosQuini6 table, .resultadosQuiniela table, .resultadosLotUni table, .resultadosBrinco table, .resultadosPozo table {
+      background-color: white; }
   .resultadosPatagonia {
     background: #9b59b6; }
+    .resultadosPatagonia__titulo {
+      padding: 10px 0;
+      color: white; }
   .resultadosMinibingo {
     background: #67a57f;
     padding-bottom: 265px; }
+    .resultadosMinibingo__titulo {
+      padding: 10px 0;
+      color: white; }
   .resultadosLoto {
     background: #d45a5a;
     padding-bottom: 214px; }
+    .resultadosLoto__titulo {
+      padding: 10px 0;
+      color: white; }
   .resultadosQuini6 {
     background: #689dcf; }
+    .resultadosQuini6__titulo {
+      padding: 10px 0;
+      color: white; }
   .resultadosQuiniela {
     background: #2e43ff; }
-  .resultadosLoteria {
-    background: #cdcece; }
+    .resultadosQuiniela__titulo {
+      padding: 10px 0;
+      color: white; }
+  .resultadosLotUni {
+    background: #8d8d8d; }
+    .resultadosLotUni__titulo {
+      padding: 10px 0;
+      color: white; }
   .resultadosBrinco {
-    background: #e7e43b; }
+    background: #d8d534; }
+    .resultadosBrinco__titulo {
+      padding: 10px 0;
+      color: white; }
   .resultadosPozo {
-    background: #2e43ff; } }
+    background: #2e43ff; }
+    .resultadosPozo__titulo {
+      padding: 10px 0;
+      color: white; } }
 
 @media (max-width: 767px) {
   .titulo__resultados {
@@ -1167,9 +1193,9 @@ body {
   .resultadosQuiniela {
     background: #2e43ff; }
   .resultadosLoteria {
-    background: #cdcece; }
+    background: #8d8d8d; }
   .resultadosBrinco {
-    background: #e7e43b; }
+    background: #d8d534; }
   .resultadosPozo {
     background: #2e43ff; } }
 
@@ -1216,9 +1242,9 @@ body {
   .resultadosQuiniela {
     background: #2e43ff; }
   .resultadosLoteria {
-    background: #cdcece; }
+    background: #8d8d8d; }
   .resultadosBrinco {
-    background: #e7e43b; }
+    background: #d8d534; }
   .resultadosPozo {
     background: #2e43ff; } }
 

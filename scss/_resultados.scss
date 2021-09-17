@@ -49,19 +49,29 @@
         }
     }
 
+
     // ----------------------------------------
 
-    .resultadosPatagonia, .resultadosMinibingo, .resultadosLoto, .resultadosQuini6, .resultadosQuiniela, .resultadosLoteria, .resultadosBrinco, .resultadosPozo{
+    .resultadosPatagonia, .resultadosMinibingo, .resultadosLoto, .resultadosQuini6, .resultadosQuiniela, .resultadosLotUni, .resultadosBrinco, .resultadosPozo{
         margin: 0 15px;
         padding-bottom: 15px;
         margin-bottom: 30px;
         border-radius: 20px;
+
+        table{
+            background-color: $blanco;
+        }
     }
 
     // ----------------------------------------
     
     .resultadosPatagonia{
         background: $patagonia;
+
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+        }
     }
 
     // ----------------------------------------
@@ -69,6 +79,11 @@
     .resultadosMinibingo{
         background: $minibingo;
         padding-bottom: 265px;
+
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+        }
     }
 
     // ----------------------------------------
@@ -76,36 +91,66 @@
     .resultadosLoto{
         background: $loto;
         padding-bottom: 214px;
+
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+        }
     }
 
     // ----------------------------------------
     
     .resultadosQuini6{
         background: $quini6;
+
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+        }
     }
 
     // ----------------------------------------
     
     .resultadosQuiniela{
         background: $quiniela;
+
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+        }
     }
 
     // ----------------------------------------
     
-    .resultadosLoteria{
+    .resultadosLotUni{
         background: $loteria;
+
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+        }
     }
 
     // ----------------------------------------
     
     .resultadosBrinco{
-        background: $brinco; 
+        background: $brinco;
+        
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+        }
     }
     
     // ----------------------------------------
 
     .resultadosPozo{
         background: $quiniela;
+
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+        }
     }
 
     // ----------------------------------------
