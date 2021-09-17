@@ -1092,6 +1092,12 @@ body {
     color: black !important;
     background: #e7e7e7;
     text-decoration: none; }
+  .btnMiniBingo {
+    position: relative;
+    top: 250px; }
+  .btnLoto {
+    position: relative;
+    top: 200px; }
   .tablaPatv, .tablaMinibingo, .tablaLoto, .tablaQuini, .tablaLotUni, .tablaBrinco, .tablaPozo {
     border-radius: 16px;
     margin-bottom: 20px; }
