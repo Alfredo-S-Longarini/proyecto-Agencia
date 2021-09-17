@@ -40,7 +40,7 @@
 
     .btnMiniBingo{
         position: relative;
-        top: 250px;
+        top: 300px;
     }
 
     .btnLoto{
@@ -55,7 +55,7 @@
         margin-bottom: 20px;
         thead{
             background-color: black;
-            color: white;
+            color: $blanco;
         }
         .sorteo{
             background-color: #e2e2e2;
@@ -74,6 +74,11 @@
         table{
             background-color: $blanco;
         }
+
+        h3{
+            font-size: 15px;
+            color: $blanco;
+        }
     }
 
     // ----------------------------------------
@@ -84,6 +89,7 @@
         &__titulo{
             padding: 10px 0;
             color: $blanco;
+            text-decoration: underline;
         }
     }
 
@@ -91,11 +97,12 @@
     
     .resultadosMinibingo{
         background: $minibingo;
-        padding-bottom: 265px;
+        padding-bottom: 315px;
 
         &__titulo{
             padding: 10px 0;
             color: $blanco;
+            text-decoration: underline;
         }
     }
 
@@ -108,6 +115,7 @@
         &__titulo{
             padding: 10px 0;
             color: $blanco;
+            text-decoration: underline;
         }
     }
 
@@ -119,6 +127,7 @@
         &__titulo{
             padding: 10px 0;
             color: $blanco;
+            text-decoration: underline;
         }
     }
 
@@ -130,6 +139,7 @@
         &__titulo{
             padding: 10px 0;
             color: $blanco;
+            text-decoration: underline;
         }
     }
 
@@ -141,6 +151,7 @@
         &__titulo{
             padding: 10px 0;
             color: $blanco;
+            text-decoration: underline;
         }
     }
 
@@ -152,6 +163,7 @@
         &__titulo{
             padding: 10px 0;
             color: $blanco;
+            text-decoration: underline;
         }
     }
     
@@ -163,6 +175,7 @@
         &__titulo{
             padding: 10px 0;
             color: $blanco;
+            text-decoration: underline;
         }
     }
 
@@ -220,58 +233,107 @@
 
     // ----------------------------------------
 
-    .resultadosPatagonia, .resultadosMinibingo, .resultadosLoto, .resultadosQuini6, .resultadosQuiniela, .resultadosLoteria, .resultadosBrinco, .resultadosPozo{
+    .resultadosPatagonia, .resultadosMinibingo, .resultadosLoto, .resultadosQuini6, .resultadosQuiniela, .resultadosLotUni, .resultadosBrinco, .resultadosPozo{
         padding-bottom: 15px;
         margin: 0 10px 30px 10px;
         border-radius: 20px;
+
+        table{
+            background-color: $blanco;
+        }
+
+        h3{
+            font-size: 15px;
+            color: $blanco;
+        }
     }
 
     // ----------------------------------------
     
     .resultadosPatagonia{
         background: $patagonia;
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+            text-decoration: underline;
+        }
     }
 
     // ----------------------------------------
     
     .resultadosMinibingo{
         background: $minibingo;
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+            text-decoration: underline;
+        }
     }
 
     // ----------------------------------------
     
     .resultadosLoto{
         background: $loto;
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+            text-decoration: underline;
+        }
     }
 
     // ----------------------------------------
     
     .resultadosQuini6{
         background: $quini6;
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+            text-decoration: underline;
+        }
     }
 
     // ----------------------------------------
     
     .resultadosQuiniela{
         background: $quiniela;
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+            text-decoration: underline;
+        }
     }
 
     // ----------------------------------------
     
-    .resultadosLoteria{
+    .resultadosLotUni{
         background: $loteria;
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+            text-decoration: underline;
+        }
     }
 
     // ----------------------------------------
     
     .resultadosBrinco{
         background: $brinco; 
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+            text-decoration: underline;
+        }
     }
 
     // ----------------------------------------
     
     .resultadosPozo{
         background: $quiniela;
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+            text-decoration: underline;
+        }
     }
 
     // ----------------------------------------
@@ -328,58 +390,107 @@
 
     // ----------------------------------------
 
-    .resultadosPatagonia, .resultadosMinibingo, .resultadosLoto, .resultadosQuini6, .resultadosQuiniela, .resultadosLoteria, .resultadosBrinco, .resultadosPozo{
+    .resultadosPatagonia, .resultadosMinibingo, .resultadosLoto, .resultadosQuini6, .resultadosQuiniela, .resultadosLotUni, .resultadosBrinco, .resultadosPozo{
         padding-bottom: 15px;
         margin: 0 10px 30px 10px;
         border-radius: 20px;
+
+        table{
+            background-color: $blanco;
+        }
+
+        h3{
+            font-size: 15px;
+            color: $blanco;
+        }
     }
 
     // ----------------------------------------
     
     .resultadosPatagonia{
         background: $patagonia;
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+            text-decoration: underline;
+        }
     }
 
     // ----------------------------------------
     
     .resultadosMinibingo{
         background: $minibingo;
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+            text-decoration: underline;
+        }
     }
 
     // ----------------------------------------
     
     .resultadosLoto{
         background: $loto;
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+            text-decoration: underline;
+        }
     }
 
     // ----------------------------------------
     
     .resultadosQuini6{
         background: $quini6;
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+            text-decoration: underline;
+        }
     }
 
     // ----------------------------------------
     
     .resultadosQuiniela{
         background: $quiniela;
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+            text-decoration: underline;
+        }
     }
 
     // ----------------------------------------
     
-    .resultadosLoteria{
+    .resultadosLotUni{
         background: $loteria;
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+            text-decoration: underline;
+        }
     }
 
     // ----------------------------------------
     
     .resultadosBrinco{
         background: $brinco; 
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+            text-decoration: underline;
+        }
     }
 
     // ----------------------------------------
     
     .resultadosPozo{
         background: $quiniela;
+        &__titulo{
+            padding: 10px 0;
+            color: $blanco;
+            text-decoration: underline;
+        }
     }
 
     // ----------------------------------------
