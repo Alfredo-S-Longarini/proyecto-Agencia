@@ -1070,6 +1070,9 @@ body {
       background-color: rgba(248, 124, 124, 0.76);
       padding: 5px; } }
 
+:root {
+  --animate-delay: 0.5s; }
+
 @media (min-width: 1024px) {
   .titulo__resultados {
     padding-top: 10px;
