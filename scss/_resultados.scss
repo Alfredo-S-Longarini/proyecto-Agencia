@@ -17,7 +17,7 @@
     .subtitulo__resultados{
         text-align: center;
         font-size: 20px;
-        padding: 10px 0;
+        padding: 20px 0;
     }
 
     // ----------------------------------------
@@ -38,14 +38,14 @@
         text-decoration: none;
     }
 
-    .btnMiniBingo{
+    .btnBrinco{
         position: relative;
-        top: 300px;
+        top: 30px;
     }
 
-    .btnLoto{
+    .btnPaTV{
         position: relative;
-        top: 200px;
+        top: 10px;
     }
 
     // ----------------------------------------
@@ -66,9 +66,8 @@
     // ----------------------------------------
 
     .resultadosPatagonia, .resultadosMinibingo, .resultadosLoto, .resultadosQuini6, .resultadosQuiniela, .resultadosLotUni, .resultadosBrinco, .resultadosPozo{
-        margin: 0 15px;
+        margin: 0 15px 30px 15px;
         padding-bottom: 15px;
-        margin-bottom: 30px;
         border-radius: 20px;
 
         table{
@@ -85,6 +84,7 @@
     
     .resultadosPatagonia{
         background: $patagonia;
+        padding-bottom: 26px;
 
         &__titulo{
             padding: 10px 0;
@@ -97,7 +97,6 @@
     
     .resultadosMinibingo{
         background: $minibingo;
-        padding-bottom: 315px;
 
         &__titulo{
             padding: 10px 0;
@@ -110,7 +109,6 @@
     
     .resultadosLoto{
         background: $loto;
-        padding-bottom: 214px;
 
         &__titulo{
             padding: 10px 0;
@@ -159,6 +157,7 @@
     
     .resultadosBrinco{
         background: $brinco;
+        padding-bottom: 45px;
         
         &__titulo{
             padding: 10px 0;
