@@ -39,6 +39,9 @@ body {
     width: 50%; }
   .quiniela__nros {
     font-size: 20px; }
+  .fecha {
+    color: black;
+    font-size: 15px; }
   .paddingLeftBot {
     padding-left: 215px;
     padding-bottom: 50px; }
@@ -164,6 +167,9 @@ body {
     width: 63%; }
   .quiniela__nros {
     font-size: 20px; }
+  .fecha {
+    color: black;
+    font-size: 15px; }
   .paddingLeftBot {
     margin-left: 20%;
     padding-bottom: 20px; }
@@ -301,6 +307,9 @@ body {
     width: 63%; }
   .quiniela__nros {
     font-size: 20px; }
+  .fecha {
+    color: black;
+    font-size: 15px; }
   .paddingLeftBot {
     margin-left: 20%;
     padding-bottom: 20px; }
@@ -1075,9 +1084,6 @@ body {
       border: 1px rgba(247, 68, 68, 0.76) solid;
       background-color: rgba(248, 124, 124, 0.76);
       padding: 5px; } }
-
-:root {
-  --animate-delay: 0.5s; }
 
 @media (min-width: 1024px) {
   .titulo__resultados {
